@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 import tensorflow_probability as tfp
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 # Local imports
@@ -74,7 +74,7 @@ model.compile(
 # =============================================================================
 # Train parameters
 # =============================================================================
-train_model = True
+train_model = False
 if train_model:
     print("Start training the model...")
     model.fit(X_train,y_train,epochs=NUM_EPOCHS, verbose=0, use_multiprocessing=True, 
@@ -91,7 +91,7 @@ if train_model:
 # To load the weights previously trained
 # =============================================================================
 
-load_model = False
+load_model = True
 if load_model:
     model.load_weights('./MODEL/my_model_weights')
 
@@ -122,10 +122,12 @@ for idx in range(5):
         f" - Actual: {y_test[idx]}"
         f" - Mean error: {round(mean_error[idx], 2)}"
     )
-
-plt.scatter(mean_error[:], prediction_stdv[:], s=1)
+plt.stem(range(100),prediction_mean[0:100], markerfmt='bo', basefmt='k-')
+plt.stem(range(100),y_test[0:100], markerfmt='ro', basefmt='k-')
+y1 = []
+y2 = []
+for i in range(100):
+    y1.append(lower[i][0])
+    y2.append(upper[i][0])
+plt.fill_between(range(100),y1, y2, alpha=0.5,color='g')
 plt.show()
-#error_mse = mean_squared_error(y_test, prediction_mean)
-#error_mae = mean_absolute_error(y_test, prediction_mean)
-#print(f"MSE: {round(error_mse, 2)}")
-#print(f"MAE: {round(error_mae, 2)}")

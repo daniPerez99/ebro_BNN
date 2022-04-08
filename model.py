@@ -51,14 +51,14 @@ def create_model(dataset_size, num_features, l1_n, l2_n):
             make_prior_fn=prior,
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
-            activation="sigmoid",
+            activation="relu",
             name="variatonal_tfp_1")
     layer2 = tfp.layers.DenseVariational(
             units=l2_n,
             make_prior_fn=prior,
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
-            activation="sigmoid",
+            activation="relu",
             name="variatonal_tfp_2")
 
     features = layer1(features)
