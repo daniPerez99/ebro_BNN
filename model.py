@@ -3,7 +3,7 @@
 import tensorflow as tf
 import tensorflow_probability as tfp
 from tensorflow import keras
-from keras import layers
+from tensorflow.keras import layers
 
 # MODEL FUNCTION
 # =============================================================================
@@ -44,26 +44,31 @@ def negative_loglikelihood(targets, estimated_distribution):
     return -estimated_distribution.log_prob(targets)
 
 def create_model(dataset_size, num_features, l1_n, l2_n):
-    input = tf.keras.Input(shape=(num_features,), name="input")
+    inputs = keras.Input(shape=(num_features,), name="input")
+    features = layers.BatchNormalization()(inputs)
     layer1 = tfp.layers.DenseVariational(
             units=l1_n,
             make_prior_fn=prior,
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
-            activation="relu",
+            activation="sigmoid",
             name="variatonal_tfp_1")
     layer2 = tfp.layers.DenseVariational(
             units=l2_n,
             make_prior_fn=prior,
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
-            activation="relu",
+            activation="sigmoid",
             name="variatonal_tfp_2")
+
+    features = layer1(features)
+    features = layer2(features)
     # Create a probabilisticå output (Normal distribution), and use the `Dense` layer
     # to produce the parameters of the distribution.
     # We set units=2 to learn both the mean and the variance of the Normal distribution.   
-    probabilistic_output = tfp.layers.IndependentNormal(1)
-    output = tf.keras.layers.Dense(tfp.layers.IndependentNormal.params_size(2))
-    model = tf.keras.Sequential([input,layer1,layer2,probabilistic_output,output])
+    distribution_params = layers.Dense(units=2)(features)
+    outputs = tfp.layers.IndependentNormal(1)(distribution_params)
+
+    model = keras.Model(inputs=inputs, outputs=outputs)
    
     return model

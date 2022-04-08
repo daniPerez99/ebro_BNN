@@ -2,14 +2,16 @@
 # -*- coding: utf-8 -*-
 import os
 import time
-import matplotlib
+import numpy as np
 import tensorflow as tf
 from tensorflow import keras
+import tensorflow_probability as tfp
 import matplotlib as plt
+from sklearn.model_selection import train_test_split
 
 # Local imports
 from config import *
-from data import 
+from data import prepare_data
 from model import create_model, negative_loglikelihood
 
 # CALLBACK FUNCTION
@@ -48,16 +50,16 @@ class PrintCallback(tf.keras.callbacks.Callback):
 
 # MAIN
 # =============================================================================
-
-def main():
-    # run the program with the CPU, comment the next line to use the GPU.
-    os.environ["CUDA_VISIBLE_DEVICES"]="-1" 
+# run the program with the CPU, comment the next line to use the GPU.
+os.environ["CUDA_VISIBLE_DEVICES"]="-1" 
 
 # =============================================================================
 # process input data
 # =============================================================================
-
-    
+df = prepare_data()
+y = df['pred']
+X = df.drop('pred',axis=1)
+X_train,X_test,y_train,y_test = train_test_split(X,y,train_size=P_TRAIN)
 # =============================================================================
 # create the model
 # =============================================================================
@@ -72,16 +74,18 @@ model.compile(
 # =============================================================================
 # Train parameters
 # =============================================================================
-print("Start training the model...")
-model.fit(X_train,y_train,epochs=NUM_EPOCHS, verbose=0, use_multiprocessing=True, 
-            callbacks=[PrintCallback(PRINT_EPOCH, LOSSES_AVG_NO)],
-            validation_split=0.1,validation_freq=25)
-print("Training finished.")
-# Save model
-model.save("./MODEL/my_model")
-# la siguiente línea salva los pesos, que se pueden cargar más adelante. Pero el modelo no estoy seguro de que el modelo que se carga sea el mismo
-# los resultados varían ligeramente, pero podría ser por su naturaleza probabilística.  
-model.save_weights('./MODEL/my_model_weights')
+train_model = True
+if train_model:
+    print("Start training the model...")
+    model.fit(X_train,y_train,epochs=NUM_EPOCHS, verbose=0, use_multiprocessing=True, 
+                callbacks=[PrintCallback(PRINT_EPOCH, LOSSES_AVG_NO)],
+                validation_split=0.1,validation_freq=25)
+    print("Training finished.")
+    # Save model
+    model.save("./MODEL/my_model")
+    # la siguiente línea salva los pesos, que se pueden cargar más adelante. Pero el modelo no estoy seguro de que el modelo que se carga sea el mismo
+    # los resultados varían ligeramente, pero podría ser por su naturaleza probabilística.  
+    model.save_weights('./MODEL/my_model_weights')
 
 # =============================================================================
 # To load the weights previously trained
@@ -89,8 +93,7 @@ model.save_weights('./MODEL/my_model_weights')
 
 load_model = False
 if load_model:
-    model = keras.models.load_model('./MODEL/my_model')
-    #model.load_weights('./MODEL/my_model_weights')
+    model.load_weights('./MODEL/my_model_weights')
 
 # =============================================================================
 # model evaluation
@@ -105,12 +108,12 @@ lower = (prediction_mean - (1.96 * prediction_stdv)).tolist()
 prediction_stdv = prediction_stdv.tolist()
 size = len(y_test)  
 mean_error = np.zeros(size)
-
+y_test = y_test.to_numpy().tolist()
 # =============================================================================
 # plot the results
 # =============================================================================
 
-for idx in range [0:5]:
+for idx in range(5):
     mean_error[idx] = y_test[idx] - prediction_mean[idx][0]
     print(
         f"Prediction mean: {round(prediction_mean[idx][0], 2)}, "
@@ -126,7 +129,3 @@ plt.show()
 #error_mae = mean_absolute_error(y_test, prediction_mean)
 #print(f"MSE: {round(error_mse, 2)}")
 #print(f"MAE: {round(error_mae, 2)}")
-
-if __name__ == "__main__":
-    main()
-
