@@ -3,16 +3,16 @@
 import os
 import time
 import numpy as np
+from sklearn.metrics import mean_squared_error, mean_absolute_error
 import tensorflow as tf
 from tensorflow import keras
-import tensorflow_probability as tfp
-import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 
 # Local imports
 from config import *
 from data import prepare_data
 from model import create_model, negative_loglikelihood
+from plot import *
 
 # CALLBACK FUNCTION
 # =============================================================================
@@ -60,6 +60,8 @@ df = prepare_data()
 y = df['pred']
 X = df.drop('pred',axis=1)
 X_train,X_test,y_train,y_test = train_test_split(X,y,train_size=P_TRAIN)
+#X_train = X_train.drop(['arce','calatayud','ebro_y','laloteta','mansilla_y','romeral','tauste','tranquera_y','yesa_y'],axis=1)
+#X_test = X_test.drop(['arce','calatayud','ebro_y','laloteta','mansilla_y','romeral','tauste','tranquera_y','yesa_y'],axis=1)
 # =============================================================================
 # create the model
 # =============================================================================
@@ -82,10 +84,12 @@ if train_model:
                 validation_split=0.1,validation_freq=25)
     print("Training finished.")
     # Save model
-    model.save("./MODEL/my_model")
+    #model.save("./MODEL/my_model")
+    model.save("./MODEL/my_model2")
     # la siguiente línea salva los pesos, que se pueden cargar más adelante. Pero el modelo no estoy seguro de que el modelo que se carga sea el mismo
     # los resultados varían ligeramente, pero podría ser por su naturaleza probabilística.  
-    model.save_weights('./MODEL/my_model_weights')
+    #model.save_weights('./MODEL/my_model_weights')
+    model.save_weights('./MODEL/my_model_weights2')
 
 # =============================================================================
 # To load the weights previously trained
@@ -93,7 +97,8 @@ if train_model:
 
 load_model = True
 if load_model:
-    model.load_weights('./MODEL/my_model_weights')
+    #model.load_weights('./MODEL/my_model_weights')
+    model.load_weights('./MODEL/my_model_weights2')
 
 # =============================================================================
 # model evaluation
@@ -122,12 +127,7 @@ for idx in range(5):
         f" - Actual: {y_test[idx]}"
         f" - Mean error: {round(mean_error[idx], 2)}"
     )
-plt.stem(range(100),prediction_mean[0:100], markerfmt='bo', basefmt='k-')
-plt.stem(range(100),y_test[0:100], markerfmt='ro', basefmt='k-')
-y1 = []
-y2 = []
-for i in range(100):
-    y1.append(lower[i][0])
-    y2.append(upper[i][0])
-plt.fill_between(range(100),y1, y2, alpha=0.5,color='g')
-plt.show()
+
+print(f"Root mean squared error: {round(mean_squared_error(y_test,prediction_mean,squared=False), 2)}")
+print(f"mean absolute error: {round(mean_absolute_error(y_test,prediction_mean),2)}")
+plot_data(y_test, prediction_mean, upper, lower)
