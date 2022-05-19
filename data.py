@@ -75,6 +75,19 @@ def process_result(df):
     df = pd.merge_asof(df,df_aux,on='fecha')
     return df
 
+def process_caudal(df):
+    #process the flow
+    files = cfg.FLOW_FILES
+    for f in files:
+        df_aux = pd.read_csv(f, sep=';', decimal=',')
+        df_aux.drop(columns=['Mximo','Mnimo','Fechamximo','Fechamnimo'],inplace=True)
+        df_aux['fecha'] = pd.to_datetime(df_aux['fecha'])
+        #get the name from the string
+        f = f.split('/')[2].split('.')[0]
+        df_aux.rename(columns={'Media':f}, inplace=True)
+        df = pd.merge_asof(df, df_aux, on='fecha')
+    
+    return df
 
 #for the data preprocessing i have removed all the whitespaces,
 #the punctuation and put a keyboard script between the hours and days
@@ -84,7 +97,9 @@ def prepare_data():
 
     df = process_embalse(df)
 
-    df = process_precipitaciones(df)
+    #df = process_precipitaciones(df)
+
+    #df = process_caudal(df)
     
     df = process_result(df)
 
@@ -92,5 +107,5 @@ def prepare_data():
 
     #drop all the inputs that contain nan
     df.dropna(inplace=True)
-
+    print('number of rows: ',len(df))
     return df
