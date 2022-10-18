@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import tensorflow as tf
 import tensorflow_probability as tfp
@@ -52,7 +51,7 @@ def create_model(dataset_size, num_features, l1_n, l2_n):
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
             activation="sigmoid",
-            name="variatonal_tfp_1")
+            name="variatonal_tfp_1",)
     layer2 = tfp.layers.DenseVariational(
             units=l2_n,
             make_prior_fn=prior,

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #variables globales de configuracion
 
@@ -41,27 +40,18 @@ PRECIPITATION_FILES = ['DATA/precipitaciones/arce.csv',
                         'DATA/precipitaciones/calatayud.csv']
 
 # Data parameters
-NUM_FEATURES_1 = 12
-
-NUM_FEATURES_2 = 21
-
-NUM_FEATURES_3 = 20
+NUM_FEATURES = 18
 
 # Model parameters
-LAYER1_NEURONS_1 = 3
-LAYER2_NEURONS_1 = 2
 
-LAYER1_NEURONS_2 = 7
-LAYER2_NEURONS_2 = 3
-
-LAYER1_NEURONS_3 = 5
-LAYER2_NEURONS_3 = 2
+LAYER1_NEURONS = 7
+LAYER2_NEURONS = 6
 
 # Training parameters
 P_TRAIN = 0.8
-NUM_EPOCHS = 1000
+NUM_EPOCHS = 20000
 LEARNING_RATE = 0.01
 
 # Callback parameters
-PRINT_EPOCH = 100
+PRINT_EPOCH = 10
 LOSSES_AVG_NO = 10

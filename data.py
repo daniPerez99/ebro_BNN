@@ -56,22 +56,26 @@ def process_precipitaciones(df):
     return df
 
 def process_date(df):
-
     #use sin and cos to represent the date
     df.insert(loc = 0, column = 'day_sin', value = 0)
     df.insert(loc = 0, column = 'day_cos', value = 0)
-    df['day_sin'] = np.sin((df.fecha.dt.day - 1) / (366 - 1) * 2 * np.pi)
-    df['day_cos'] = np.cos((df.fecha.dt.day - 1) / (366 - 1) * 2 * np.pi)
+    df['day_sin'] = np.sin((df.fecha.dt.dayofyear - 1) / (366 - 1) * 2 * np.pi)
+    df['day_cos'] = np.cos((df.fecha.dt.dayofyear - 1) / (366 - 1) * 2 * np.pi)
     df.drop('fecha',axis=1,inplace=True)
     return df
 
-def process_result(df):
+def process_result(df,pred='24H'):
     df_aux = pd.read_csv('DATA/prediccion/pred.csv', sep=';', decimal=',')
     df_aux.drop(columns=['Mximo','Mnimo','Fechamximo','Fechamnimo'],inplace=True)
     df_aux['fecha'] = pd.to_datetime(df_aux['fecha'])
     df_aux.rename(columns={'Media':'pred'}, inplace=True)
     #setting an offset to fecha to align with the prediction
-    df['fecha'] = df['fecha'].add(pd.Timedelta('1 days'))
+    if pred == '24H':
+        df['fecha'] = df['fecha'].add(pd.Timedelta('1 days'))
+    elif pred == '48H':
+        df['fecha'] = df['fecha'].add(pd.Timedelta('2 days'))
+    elif pred == '72H':
+        df['fecha'] = df['fecha'].add(pd.Timedelta('3 days'))
     df = pd.merge_asof(df,df_aux,on='fecha')
     return df
 
@@ -99,13 +103,34 @@ def prepare_data():
 
     #df = process_precipitaciones(df)
 
-    #df = process_caudal(df)
-    
-    df = process_result(df)
+    df = process_caudal(df)
 
-    df = process_date(df)
+    res = []
+    for pred in ['24H','48H','72H']:
+        df_aux = process_result(df,pred)
+        df_aux = process_date(df_aux)
+        #drop all the inputs that contain nan
+        df_aux.dropna(inplace=True)
+        print('number of rows in '+pred+': ',len(df_aux))
+        res.append(df_aux)
 
-    #drop all the inputs that contain nan
-    df.dropna(inplace=True)
-    print('number of rows: ',len(df))
-    return df
+    return res
+
+
+def normalize_data_mean(df):
+    #normalize the data
+    df_norm = (df - df.mean()) / df.std()
+    #restore the original values
+    df_norm['pred'] = df['pred']
+    df_norm['day_cos'] = df['day_cos']
+    df_norm['day_sin'] = df['day_sin']
+    return df_norm
+
+def normalize_data_minmax(df):
+    #normalize the data
+    df_norm = (df - df.min()) / (df.max() - df.min())
+    #restore the original values
+    df_norm['pred'] = df['pred']
+    df_norm['day_cos'] = df['day_cos']
+    df_norm['day_sin'] = df['day_sin']
+    return df_norm
