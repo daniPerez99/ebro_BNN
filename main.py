@@ -1,13 +1,11 @@
-from calendar import EPOCH
+from operator import truediv
 import os
 from random import randint
-import time
 import numpy as np
 from sklearn.metrics import max_error, mean_squared_error, mean_absolute_error
 from sklearn.utils import shuffle
 import tensorflow as tf
 from tensorflow import keras
-import tensorflow_probability as tfp
 from sklearn.model_selection import train_test_split
 import pandas as pd
 # Local imports
@@ -15,52 +13,7 @@ from config import *
 from data import prepare_data, normalize_data_minmax, normalize_data_mean
 from model import create_model, negative_loglikelihood
 from plot import *
-
-
-# CALLBACK FUNCTION
-# =============================================================================
-
-class PrintCallback(tf.keras.callbacks.Callback):
-    
-    def __init__(self, save_epoch=500, print_epoch=10):
-        self.save_epoch = save_epoch
-        self.print_epoch = print_epoch
-    
-    def print_loss_acc(self, logs, last=False, time=None):
-        loss = sum(self.losses[-self.print_epoch:])/self.print_epoch
-        rmse = sum(self.rmse[-self.print_epoch:])/self.print_epoch
-        if last:
-            print("\n--- TRAIN END AT EPOCH {} ---".format(self.epoch))
-            print("TRAINING TIME: {} seconds".format(time))
-            print("Epoch loss ({}): {} - RMSE: {}".format(self.epoch, loss,rmse),end='\n')
-        else:
-            if self.epoch % self.save_epoch == 0:
-                loss = sum(self.losses[-self.save_epoch:])/self.save_epoch
-                rmse = sum(self.rmse[-self.save_epoch:])/self.save_epoch
-                print("Epoch loss ({}): {} - RMSE: {}".format(self.epoch, loss,rmse),end='\n')
-            else:
-                print("Epoch loss ({}): {} - RMSE: {}".format(self.epoch, loss,rmse),end='\r')
-
-    
-    def on_train_begin(self, logs={}):
-        self.losses = []
-        self.epoch = 0
-        self.start_time = time.time()
-        self.rmse = []
-    
-    def on_batch_end(self, batch, logs={}):
-        self.losses.append(logs.get('loss'))
-        self.rmse.append(logs.get('root_mean_squared_error'))
-    
-    def on_epoch_end(self, epoch, logs={}):
-        self.epoch += 1
-        if self.epoch % self.print_epoch == 0:
-            self.print_loss_acc(logs)
-    
-    def on_train_end(self, logs={}):
-        total_time = time.time() - self.start_time
-        self.print_loss_acc(logs, last=True, time=total_time)
-
+from callbacks import *
 # MAIN
 # =============================================================================
 def main():
@@ -68,13 +21,14 @@ def main():
     # global parameters
     process_data = False
     normalize = 'None' #this value can be: 'minmax', 'mean' or None
-    train_model = True
-    save_model = False
+    train_model = False
+    save_model = True
     load_model = True
-    train_eval = 'val_loss' #this value can be: 'val_root_mean_squared_error' or 'val_loss'
-    optimizers = 'SGD'
-    for pred_date in ['24H', '48H', '72H']:
-        checkpoint_filepath = 'MODEL/checkpoint/'+normalize+'_'+pred_date+'_'+str(LAYER1_NEURONS)+'_'+str(LAYER2_NEURONS)+'_'+str(NUM_EPOCHS)+'_'+optimizers+'_'+train_eval
+    train_eval = 'val_root_mean_squared_error' #this value can be: 'val_root_mean_squared_error' or 'val_loss'
+    optimizers = 'SGD' #this value can be: 'Adam' or 'SGD' or 'RMSprop'
+    for pred_date in ['24H']:#, '48H', '72H']:
+        #checkpoint_filepath = 'MODEL/checkpoint/'+normalize+'_'+pred_date+'_'+str(LAYER1_NEURONS)+'_'+str(LAYER2_NEURONS)+'_'+str(NUM_EPOCHS)+'_'+optimizers+'_'+train_eval
+        checkpoint_filepath = 'MODELS/ajustarNeuronasLR0_001/'+optimizers+'_'+str(LAYER1_NEURONS)+'_'+str(LAYER2_NEURONS)
         # =============================================================================
         # process input data
         # =============================================================================
@@ -104,6 +58,7 @@ def main():
 
         y = df['pred']
         X = df.drop('pred',axis=1)
+        print(len(X))
         X_train,X_test,y_train,y_test = train_test_split(X,y,train_size=P_TRAIN,shuffle=False)
         # =============================================================================
         # create the model
@@ -131,19 +86,19 @@ def main():
             print("Training model with {} neurons in layer 1 and {} neurons in layer 2".format(LAYER1_NEURONS, LAYER2_NEURONS))
             print("#######################################################################")
             print("Start training the model...")
-            checkpoint = keras.callbacks.ModelCheckpoint(checkpoint_filepath, monitor=train_eval, verbose=0, save_best_only=True)
-            tensorboard = keras.callbacks.TensorBoard(log_dir='LOGS/train/'+normalize+'_'+pred_date+'_'+str(LAYER1_NEURONS)+'_'+str(LAYER2_NEURONS)+'_'+str(NUM_EPOCHS)+'_'+optimizers+'_'+train_eval),
-            early_stop = keras.callbacks.EarlyStopping(monitor=train_eval, patience=20)
+            #tensorboard = keras.callbacks.TensorBoard(log_dir='LOGS/train/'+normalize+'_'+pred_date+'_'+str(LAYER1_NEURONS)+'_'+str(LAYER2_NEURONS)+'_'+str(NUM_EPOCHS)+'_'+optimizers+'_'+train_eval)
+            tensorboard = keras.callbacks.TensorBoard(log_dir='LOGS/mejoresResultados/base')
+            myCallback = PrintCallback(earlyStop=False,checkpoint_path=checkpoint_filepath,monitor=train_eval,restore_best_model=False,validation_freq=25)
             model.fit(X_train,y_train,epochs=NUM_EPOCHS, verbose=0, use_multiprocessing=True,
-                callbacks=[checkpoint,tensorboard,PrintCallback(),early_stop,],
+                callbacks=[tensorboard,myCallback,],
                 validation_split=0.1,validation_freq=25)
             print("Training finished.")
             # Save model
             if save_model:
-                #model.save("./MODEL/my_model_"+normalize+'_'+pred_date)
+                model.save('./MODEL/mejorBase')
                 # la siguiente línea salva los pesos, que se pueden cargar más adelante. Pero el modelo no estoy seguro de que el modelo que se carga sea el mismo
                 # los resultados varían ligeramente, pero podría ser por su naturaleza probabilística.  
-                model.save_weights('./MODEL/my_model_weights_'+normalize+'_'+pred_date)
+                model.save_weights('./MODEL/base/mejorBase')
 
         # =============================================================================
         # To load the weights previously trained
@@ -151,7 +106,8 @@ def main():
 
         if load_model:
             
-            model.load_weights(checkpoint_filepath+'/variables/variables').expect_partial()
+            #model.load_weights(checkpoint_filepath+'/variables/variables').expect_partial()
+            model.load_weights('./MODEL/base/mejorBase').expect_partial()
 
         # =============================================================================
         # model evaluation

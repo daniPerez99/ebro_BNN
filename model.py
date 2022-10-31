@@ -58,7 +58,7 @@ def create_model(dataset_size, num_features, l1_n, l2_n):
             make_posterior_fn=posterior,
             kl_weight=1 / dataset_size,
             activation="sigmoid",
-            name="variatonal_tfp_2")
+            name="variatonal_tfp_2",)
 
     features = layer1(features)
     features = layer2(features)

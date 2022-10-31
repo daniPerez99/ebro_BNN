@@ -43,13 +43,12 @@ PRECIPITATION_FILES = ['DATA/precipitaciones/arce.csv',
 NUM_FEATURES = 18
 
 # Model parameters
-
 LAYER1_NEURONS = 7
 LAYER2_NEURONS = 6
 
 # Training parameters
-P_TRAIN = 0.8
-NUM_EPOCHS = 20000
+P_TRAIN = 0.001
+NUM_EPOCHS = 2875
 LEARNING_RATE = 0.01
 
 # Callback parameters
