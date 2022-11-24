@@ -13,8 +13,8 @@ def process_rios():
     df.drop(columns=['Mximo','Mnimo','Fechamximo','Fechamnimo'],inplace=True)
     df['fecha'] = pd.to_datetime(df['fecha'])
     #get the name from the string
-    files[0] = files[0].split('/')[2].split('.')[0]
-    df.rename(columns={'Media':files[0]}, inplace=True)
+    f = files[0].split('/')[2].split('.')[0]
+    df.rename(columns={'Media':'aforo_'+f}, inplace=True)
 
     for f in files[1:]:
         df_aux = pd.read_csv(f, sep=';', decimal=',')
@@ -22,7 +22,7 @@ def process_rios():
         df_aux['fecha'] = pd.to_datetime(df_aux['fecha'])
         #get the name from the string
         f = f.split('/')[2].split('.')[0]
-        df_aux.rename(columns={'Media':f}, inplace=True)
+        df_aux.rename(columns={'Media':'aforo_'+f}, inplace=True)
         df = pd.merge_asof(df, df_aux, on='fecha')
     
     return df
@@ -37,7 +37,7 @@ def process_embalse(df):
         df_aux['fecha'] = pd.to_datetime(df_aux['fecha'])
         #get the name from the string
         f = f.split('/')[2].split('.')[0]
-        df_aux.rename(columns={'Acumulado':f}, inplace=True)
+        df_aux.rename(columns={'Acumulado':'embalse_'+f}, inplace=True)
         df = pd.merge_asof(df, df_aux, on='fecha')
     return df
 
@@ -51,7 +51,7 @@ def process_precipitaciones(df):
         df_aux['fecha'] = pd.to_datetime(df_aux['fecha'])
         #get the name from the string
         f = f.split('/')[2].split('.')[0]
-        df_aux.rename(columns={'Acumulado':f}, inplace=True)
+        df_aux.rename(columns={'Acumulado':'precipitacion_'+f}, inplace=True)
         df = pd.merge_asof(df, df_aux, on='fecha')
     return df
 
@@ -95,7 +95,7 @@ def process_caudal(df):
 
 #for the data preprocessing i have removed all the whitespaces,
 #the punctuation and put a keyboard script between the hours and days
-def prepare_data():
+def prepare_data(pred='24H'):
 
     df = process_rios()
 
@@ -105,16 +105,14 @@ def prepare_data():
 
     df = process_caudal(df)
 
-    res = []
-    for pred in ['24H','48H','72H']:
-        df_aux = process_result(df,pred)
-        df_aux = process_date(df_aux)
-        #drop all the inputs that contain nan
-        df_aux.dropna(inplace=True)
-        print('number of rows in '+pred+': ',len(df_aux))
-        res.append(df_aux)
+    df = process_result(df,pred)
 
-    return res
+    df = process_date(df)
+    #drop all the inputs that contain nan
+    df.dropna(inplace=True)
+    print('number of rows in '+pred+': ',len(df))
+
+    return df
 
 
 def normalize_data_mean(df):
@@ -134,3 +132,26 @@ def normalize_data_minmax(df):
     df_norm['day_cos'] = df['day_cos']
     df_norm['day_sin'] = df['day_sin']
     return df_norm
+
+def split_flood(df):
+    #split the data in flood and non flood
+    df_flood = df[df['pred'] > 3]
+    df_no_flood = df[df['pred'] <= 3]
+    print(f'number of flood rows: {len(df_flood)}')
+    print(f'number of no flood rows: {len(df_no_flood)}')
+
+    return df_flood, df_no_flood
+
+ITER = 'mejora2'
+pred_date = '24H'
+df = prepare_data(pred_date)
+#the shuffle is done here to have the same distribution of data in all cases.
+#df = shuffle(df, random_state=seed)
+
+df.to_csv('DATA/datos_procesados/'+ITER+'/datos_'+pred_date+'_NoRand.csv',index=False)
+
+df_aux = normalize_data_mean(df)
+df_aux.to_csv('DATA/datos_procesados/'+ITER+'/datos_mean_'+pred_date+'_NoRand.csv',index=False)
+
+df_aux = normalize_data_minmax(df)
+df_aux.to_csv('DATA/datos_procesados/'+ITER+'/datos_minmax_'+pred_date+'_NoRand.csv',index=False)

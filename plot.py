@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
+import pandas as pd
 
 def plot_data(list,y_test,prediction_mean,upper,lower,fig_name='./LOGS/plots/plot.png'):
     y_test_plot = []
@@ -23,3 +24,12 @@ def plot_data(list,y_test,prediction_mean,upper,lower,fig_name='./LOGS/plots/plo
     plt.legend()
     plt.savefig(fig_name)
     plt.close()
+def histograma():
+    data = pd.read_csv("./DATA/datos_procesados/base/datos_24H.csv")
+    plt.hist(x=data['pred'],bins=range(7),rwidth=0.85)
+    plt.title("Histograma de nivel del ebro")
+    plt.xlabel("nivel (m)")
+    plt.ylabel("casos")
+    plt.savefig("./LOGS/plots/histograma.png")
+
+#histograma()
