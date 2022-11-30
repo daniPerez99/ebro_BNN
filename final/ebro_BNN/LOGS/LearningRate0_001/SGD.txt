@@ -1,0 +1,2211 @@
+########################################################################################
+Training model with SGD optimizer, 2 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1119732587337494 - RMSE: 1.0315426211357117
+Epoch loss (1000): 1.1031802233457566 - RMSE: 1.034903881430626
+Epoch loss (1500): -0.07648286041151732 - RMSE: 0.5428660742044449
+Epoch loss (2000): -0.316363616719842 - RMSE: 0.4165404247641563
+Epoch loss (2500): -0.36069295347481967 - RMSE: 0.3872240219116211
+Epoch loss (3000): -0.43029965364933015 - RMSE: 0.3648520381450653
+Epoch loss (3500): -0.4134437727034092 - RMSE: 0.3461699654459953
+Epoch loss (4000): -0.3835855663120747 - RMSE: 0.35832242864370345
+Epoch loss (4500): -0.3982029297053814 - RMSE: 0.35443106484413145
+Epoch loss (5000): -0.44687897062301635 - RMSE: 0.35078357070684435
+
+--- TRAIN END AT EPOCH 5100 ---
+TRAINING TIME: 407.97633934020996 seconds
+Best epoch: 4600
+Epoch loss (5100): -0.43825234085321424 - RMSE: 0.34249550801515577
+Training finished.
+Root Mean squared error: 0.16
+Mean absolute error: 0.1
+Max error: 1.75
+Number of uncertainy: 12
+Mean of stdv: 0.18
+TOP 10 maximum errors:
+Prediction mean: 3.51, stddev: 0.88, 95% CI: [5.22 - 1.79] - Actual: 4.31 - Mean error: -0.8
+Prediction mean: 3.29, stddev: 0.76, 95% CI: [4.77 - 1.8] - Actual: 4.1 - Mean error: -0.81
+Prediction mean: 3.5, stddev: 0.87, 95% CI: [5.22 - 1.79] - Actual: 4.45 - Mean error: -0.95
+Prediction mean: 3.53, stddev: 0.89, 95% CI: [5.28 - 1.79] - Actual: 4.48 - Mean error: -0.95
+Prediction mean: 3.52, stddev: 0.88, 95% CI: [5.24 - 1.79] - Actual: 4.53 - Mean error: -1.01
+Prediction mean: 3.4, stddev: 0.82, 95% CI: [5.0 - 1.8] - Actual: 4.47 - Mean error: -1.07
+Prediction mean: 3.53, stddev: 0.89, 95% CI: [5.28 - 1.79] - Actual: 4.7 - Mean error: -1.17
+Prediction mean: 3.44, stddev: 0.84, 95% CI: [5.08 - 1.8] - Actual: 4.61 - Mean error: -1.17
+Prediction mean: 3.32, stddev: 0.77, 95% CI: [4.84 - 1.8] - Actual: 4.94 - Mean error: -1.62
+Prediction mean: 3.51, stddev: 0.88, 95% CI: [5.23 - 1.79] - Actual: 5.26 - Mean error: -1.75
+########################################################################################
+Training model with SGD optimizer, 3 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1182902547121047 - RMSE: 1.0448382163047791
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 61.417330741882324 seconds
+Best epoch: 200
+Epoch loss (700): 1.1352718181610106 - RMSE: 1.050014374732971
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 3 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.121809695482254 - RMSE: 1.0469913996458053
+
+--- TRAIN END AT EPOCH 675 ---
+TRAINING TIME: 57.36282205581665 seconds
+Best epoch: 175
+Epoch loss (675): 1.1202210793495178 - RMSE: 1.047658972620964
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 4 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1336126608848571 - RMSE: 1.0545239672660827
+
+--- TRAIN END AT EPOCH 600 ---
+TRAINING TIME: 56.789053201675415 seconds
+Best epoch: 100
+Epoch loss (600): 1.127389193058014 - RMSE: 1.0582038711309434
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 4 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1390319964885711 - RMSE: 1.0604391057491303
+Epoch loss (1000): 1.1196939997673034 - RMSE: 1.0419321820735932
+
+--- TRAIN END AT EPOCH 1150 ---
+TRAINING TIME: 107.68444228172302 seconds
+Best epoch: 650
+Epoch loss (1150): 1.1180457421541214 - RMSE: 1.0523608988523483
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 4 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1277556173801422 - RMSE: 1.0599271416664124
+Epoch loss (1000): 1.0940234167575835 - RMSE: 1.0420973106622695
+
+--- TRAIN END AT EPOCH 1025 ---
+TRAINING TIME: 91.48711133003235 seconds
+Best epoch: 525
+Epoch loss (1025): 1.1266610221862794 - RMSE: 1.0481209607124329
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.53
+Max error: 3.96
+Number of uncertainy: 44
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.29, stddev: 0.75, 95% CI: [2.75 - -0.17] - Actual: 4.27 - Mean error: -2.98
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.31 - Mean error: -2.98
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.3, stddev: 0.74, 95% CI: [2.76 - -0.16] - Actual: 4.45 - Mean error: -3.15
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.3, stddev: 0.75, 95% CI: [2.76 - -0.16] - Actual: 4.48 - Mean error: -3.18
+Prediction mean: 1.29, stddev: 0.75, 95% CI: [2.76 - -0.17] - Actual: 4.61 - Mean error: -3.32
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.78 - -0.13] - Actual: 4.7 - Mean error: -3.38
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.3, stddev: 0.75, 95% CI: [2.76 - -0.16] - Actual: 5.26 - Mean error: -3.96
+########################################################################################
+Training model with SGD optimizer, 5 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1185869622230529 - RMSE: 1.0458887140750885
+Epoch loss (1000): 1.118386104106903 - RMSE: 1.0451609275341034
+
+--- TRAIN END AT EPOCH 1050 ---
+TRAINING TIME: 103.80780577659607 seconds
+Best epoch: 550
+Epoch loss (1050): 1.120933977007866 - RMSE: 1.0369451773166656
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.27 - Mean error: -2.9
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.31 - Mean error: -2.95
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.47 - Mean error: -3.1
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.48 - Mean error: -3.11
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.53 - Mean error: -3.16
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.61 - Mean error: -3.24
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.7 - Mean error: -3.33
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.07] - Actual: 4.94 - Mean error: -3.57
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 5 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1416219396591187 - RMSE: 1.0527929505109788
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 68.5486171245575 seconds
+Best epoch: 200
+Epoch loss (700): 1.1196649978160857 - RMSE: 1.0518546026945115
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 5 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.121481461405754 - RMSE: 1.0435813994407654
+Epoch loss (1000): -0.033613284974737326 - RMSE: 0.5361933535933494
+Epoch loss (1500): -0.2422963432269171 - RMSE: 0.44313406211137774
+Epoch loss (2000): -0.321654388487339 - RMSE: 0.4054743965566158
+Epoch loss (2500): -0.3209436228722334 - RMSE: 0.39489091640710833
+
+--- TRAIN END AT EPOCH 2625 ---
+TRAINING TIME: 261.174756526947 seconds
+Best epoch: 2125
+Epoch loss (2625): -0.33326950880885126 - RMSE: 0.3932230626046658
+Training finished.
+Root Mean squared error: 0.22
+Mean absolute error: 0.13
+Max error: 2.15
+Number of uncertainy: 24
+Mean of stdv: 0.22
+TOP 10 maximum errors:
+Prediction mean: 3.15, stddev: 0.84, 95% CI: [4.8 - 1.51] - Actual: 4.27 - Mean error: -1.12
+Prediction mean: 3.14, stddev: 0.83, 95% CI: [4.78 - 1.51] - Actual: 4.31 - Mean error: -1.17
+Prediction mean: 3.18, stddev: 0.85, 95% CI: [4.85 - 1.5] - Actual: 4.48 - Mean error: -1.3
+Prediction mean: 3.14, stddev: 0.83, 95% CI: [4.78 - 1.51] - Actual: 4.45 - Mean error: -1.31
+Prediction mean: 3.1, stddev: 0.81, 95% CI: [4.69 - 1.51] - Actual: 4.47 - Mean error: -1.37
+Prediction mean: 3.16, stddev: 0.84, 95% CI: [4.81 - 1.5] - Actual: 4.53 - Mean error: -1.37
+Prediction mean: 3.12, stddev: 0.82, 95% CI: [4.73 - 1.51] - Actual: 4.61 - Mean error: -1.49
+Prediction mean: 3.17, stddev: 0.85, 95% CI: [4.84 - 1.5] - Actual: 4.7 - Mean error: -1.53
+Prediction mean: 3.08, stddev: 0.8, 95% CI: [4.64 - 1.52] - Actual: 4.94 - Mean error: -1.86
+Prediction mean: 3.11, stddev: 0.81, 95% CI: [4.7 - 1.51] - Actual: 5.26 - Mean error: -2.15
+########################################################################################
+Training model with SGD optimizer, 5 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1220205717086793 - RMSE: 1.0575967601537704
+
+--- TRAIN END AT EPOCH 825 ---
+TRAINING TIME: 82.58402466773987 seconds
+Best epoch: 325
+Epoch loss (825): 1.126276021003723 - RMSE: 1.0514190336465836
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.9
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.1] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.1] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.37, stddev: 0.75, 95% CI: [2.83 - -0.1] - Actual: 4.7 - Mean error: -3.33
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.1] - Actual: 5.26 - Mean error: -3.9
+########################################################################################
+Training model with SGD optimizer, 6 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1208602423667908 - RMSE: 1.0550087847709655
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 79.46482610702515 seconds
+Best epoch: 225
+Epoch loss (725): 1.1207378010749818 - RMSE: 1.0512295486927032
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 6 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1265519347190858 - RMSE: 1.0512839624881745
+
+--- TRAIN END AT EPOCH 875 ---
+TRAINING TIME: 102.22873377799988 seconds
+Best epoch: 375
+Epoch loss (875): 1.1234931746721268 - RMSE: 1.045050684928894
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 6 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1124749091863633 - RMSE: 1.0373866684436799
+Epoch loss (1000): -0.06248439955530921 - RMSE: 0.5389459085464477
+Epoch loss (1500): -0.2729088987465948 - RMSE: 0.4274473127126694
+Epoch loss (2000): -0.28483655233681204 - RMSE: 0.41253589940071106
+Epoch loss (2500): -0.31283874368853865 - RMSE: 0.3924240200519562
+Epoch loss (3000): -0.34827638119459153 - RMSE: 0.3861927508711815
+
+--- TRAIN END AT EPOCH 3425 ---
+TRAINING TIME: 402.6177523136139 seconds
+Best epoch: 2925
+Epoch loss (3425): -0.35960134890675544 - RMSE: 0.40071418887376786
+Training finished.
+Root Mean squared error: 0.24
+Mean absolute error: 0.11
+Max error: 2.37
+Number of uncertainy: 15
+Mean of stdv: 0.19
+TOP 10 maximum errors:
+Prediction mean: 2.92, stddev: 0.71, 95% CI: [4.31 - 1.52] - Actual: 4.25 - Mean error: -1.33
+Prediction mean: 2.94, stddev: 0.73, 95% CI: [4.36 - 1.52] - Actual: 4.31 - Mean error: -1.37
+Prediction mean: 3.01, stddev: 0.76, 95% CI: [4.49 - 1.52] - Actual: 4.48 - Mean error: -1.47
+Prediction mean: 2.94, stddev: 0.72, 95% CI: [4.35 - 1.52] - Actual: 4.45 - Mean error: -1.51
+Prediction mean: 2.98, stddev: 0.74, 95% CI: [4.43 - 1.52] - Actual: 4.53 - Mean error: -1.55
+Prediction mean: 2.83, stddev: 0.67, 95% CI: [4.14 - 1.52] - Actual: 4.47 - Mean error: -1.64
+Prediction mean: 3.01, stddev: 0.76, 95% CI: [4.51 - 1.52] - Actual: 4.7 - Mean error: -1.69
+Prediction mean: 2.86, stddev: 0.68, 95% CI: [4.19 - 1.52] - Actual: 4.61 - Mean error: -1.75
+Prediction mean: 2.8, stddev: 0.65, 95% CI: [4.08 - 1.52] - Actual: 4.94 - Mean error: -2.14
+Prediction mean: 2.89, stddev: 0.7, 95% CI: [4.26 - 1.52] - Actual: 5.26 - Mean error: -2.37
+########################################################################################
+Training model with SGD optimizer, 6 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1274627676010132 - RMSE: 1.0489463080167771
+Epoch loss (1000): 1.1225318603515626 - RMSE: 1.0571018035411834
+Epoch loss (1500): 1.0911011017560959 - RMSE: 1.0142511364221574
+Epoch loss (2000): -0.0745930158700794 - RMSE: 0.5158246361017227
+Epoch loss (2500): -0.2918258484104881 - RMSE: 0.42090191757678985
+Epoch loss (3000): -0.32398424392938613 - RMSE: 0.41253496551513674
+
+--- TRAIN END AT EPOCH 3450 ---
+TRAINING TIME: 407.3179717063904 seconds
+Best epoch: 2950
+Epoch loss (3450): -0.3414055832028389 - RMSE: 0.4028558245897293
+Training finished.
+Root Mean squared error: 0.24
+Mean absolute error: 0.12
+Max error: 2.39
+Number of uncertainy: 23
+Mean of stdv: 0.2
+TOP 10 maximum errors:
+Prediction mean: 2.91, stddev: 0.72, 95% CI: [4.31 - 1.5] - Actual: 4.27 - Mean error: -1.36
+Prediction mean: 2.9, stddev: 0.71, 95% CI: [4.3 - 1.5] - Actual: 4.31 - Mean error: -1.41
+Prediction mean: 2.91, stddev: 0.72, 95% CI: [4.31 - 1.5] - Actual: 4.45 - Mean error: -1.54
+Prediction mean: 2.93, stddev: 0.73, 95% CI: [4.36 - 1.5] - Actual: 4.48 - Mean error: -1.55
+Prediction mean: 2.87, stddev: 0.7, 95% CI: [4.23 - 1.51] - Actual: 4.47 - Mean error: -1.6
+Prediction mean: 2.92, stddev: 0.72, 95% CI: [4.34 - 1.5] - Actual: 4.53 - Mean error: -1.61
+Prediction mean: 2.89, stddev: 0.71, 95% CI: [4.28 - 1.5] - Actual: 4.61 - Mean error: -1.72
+Prediction mean: 2.94, stddev: 0.73, 95% CI: [4.37 - 1.5] - Actual: 4.7 - Mean error: -1.76
+Prediction mean: 2.81, stddev: 0.66, 95% CI: [4.11 - 1.51] - Actual: 4.94 - Mean error: -2.13
+Prediction mean: 2.87, stddev: 0.7, 95% CI: [4.24 - 1.51] - Actual: 5.26 - Mean error: -2.39
+########################################################################################
+Training model with SGD optimizer, 6 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1414711610078812 - RMSE: 1.062344277739525
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 83.97255969047546 seconds
+Best epoch: 200
+Epoch loss (700): 1.1140550816059112 - RMSE: 1.0565241103172303
+Training finished.
+Root Mean squared error: 0.69
+Mean absolute error: 0.51
+Max error: 3.85
+Number of uncertainy: 45
+Mean of stdv: 0.73
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.72, 95% CI: [2.77 - -0.07] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.37, stddev: 0.72, 95% CI: [2.79 - -0.05] - Actual: 4.31 - Mean error: -2.94
+Prediction mean: 1.38, stddev: 0.72, 95% CI: [2.8 - -0.04] - Actual: 4.45 - Mean error: -3.07
+Prediction mean: 1.4, stddev: 0.73, 95% CI: [2.82 - -0.03] - Actual: 4.47 - Mean error: -3.07
+Prediction mean: 1.4, stddev: 0.73, 95% CI: [2.83 - -0.02] - Actual: 4.48 - Mean error: -3.08
+Prediction mean: 1.38, stddev: 0.72, 95% CI: [2.8 - -0.04] - Actual: 4.53 - Mean error: -3.15
+Prediction mean: 1.39, stddev: 0.73, 95% CI: [2.81 - -0.03] - Actual: 4.61 - Mean error: -3.22
+Prediction mean: 1.41, stddev: 0.73, 95% CI: [2.84 - -0.02] - Actual: 4.7 - Mean error: -3.29
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.73 - -0.11] - Actual: 4.94 - Mean error: -3.63
+Prediction mean: 1.41, stddev: 0.73, 95% CI: [2.84 - -0.02] - Actual: 5.26 - Mean error: -3.85
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.130205379486084 - RMSE: 1.0615307066440582
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 100.43218755722046 seconds
+Best epoch: 250
+Epoch loss (750): 1.1191533164978027 - RMSE: 1.054831804037094
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1484672014713286 - RMSE: 1.0609222004413605
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 84.45630097389221 seconds
+Best epoch: 125
+Epoch loss (625): 1.1282924838066102 - RMSE: 1.0494684554338456
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1314215812683106 - RMSE: 1.0494512386322021
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 94.78528571128845 seconds
+Best epoch: 200
+Epoch loss (700): 1.1245688331127166 - RMSE: 1.042064289689064
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.09] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.09] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.79 - -0.08] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1378383541107178 - RMSE: 1.0592584505081177
+Epoch loss (1000): 1.1178813819885254 - RMSE: 1.0566507778167724
+Epoch loss (1500): 0.6977462837100029 - RMSE: 0.7750778663158416
+Epoch loss (2000): -0.17701358504220843 - RMSE: 0.4671575016975403
+Epoch loss (2500): -0.31990692327171566 - RMSE: 0.4148462860584259
+Epoch loss (3000): -0.29346855157613755 - RMSE: 0.4106393746137619
+Epoch loss (3500): -0.31072778628766534 - RMSE: 0.39595052748918536
+Epoch loss (4000): -0.3366298301741481 - RMSE: 0.38591484797000886
+Epoch loss (4500): -0.39907561865448954 - RMSE: 0.36895249158143995
+Epoch loss (5000): -0.37341108804941175 - RMSE: 0.36637732821702956
+Epoch loss (5500): -0.3433119995915331 - RMSE: 0.366274629175663
+Epoch loss (6000): -0.381919614225626 - RMSE: 0.37557164394855497
+
+--- TRAIN END AT EPOCH 6325 ---
+TRAINING TIME: 836.5930678844452 seconds
+Best epoch: 5825
+Epoch loss (6325): -0.38465091680362823 - RMSE: 0.3583783968985081
+Training finished.
+Root Mean squared error: 0.17
+Mean absolute error: 0.1
+Max error: 1.76
+Number of uncertainy: 20
+Mean of stdv: 0.18
+TOP 10 maximum errors:
+Prediction mean: 2.32, stddev: 0.38, 95% CI: [3.06 - 1.58] - Actual: 3.17 - Mean error: -0.85
+Prediction mean: 3.62, stddev: 0.93, 95% CI: [5.44 - 1.8] - Actual: 4.48 - Mean error: -0.86
+Prediction mean: 3.24, stddev: 0.73, 95% CI: [4.66 - 1.81] - Actual: 4.1 - Mean error: -0.86
+Prediction mean: 3.54, stddev: 0.88, 95% CI: [5.27 - 1.8] - Actual: 4.45 - Mean error: -0.91
+Prediction mean: 3.58, stddev: 0.91, 95% CI: [5.36 - 1.8] - Actual: 4.53 - Mean error: -0.95
+Prediction mean: 3.62, stddev: 0.93, 95% CI: [5.43 - 1.8] - Actual: 4.7 - Mean error: -1.08
+Prediction mean: 3.33, stddev: 0.78, 95% CI: [4.85 - 1.81] - Actual: 4.47 - Mean error: -1.14
+Prediction mean: 3.44, stddev: 0.83, 95% CI: [5.07 - 1.81] - Actual: 4.61 - Mean error: -1.17
+Prediction mean: 3.22, stddev: 0.72, 95% CI: [4.64 - 1.81] - Actual: 4.94 - Mean error: -1.72
+Prediction mean: 3.5, stddev: 0.86, 95% CI: [5.2 - 1.81] - Actual: 5.26 - Mean error: -1.76
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1225082297325135 - RMSE: 1.0547544835805893
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 98.45698118209839 seconds
+Best epoch: 225
+Epoch loss (725): 1.1284516475200652 - RMSE: 1.0543005028963088
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.53
+Max error: 3.91
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.27 - Mean error: -2.91
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.31 - Mean error: -2.95
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.08] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 7 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.0686986986398697 - RMSE: 1.017415708065033
+Epoch loss (1000): -0.13676910657808183 - RMSE: 0.49992524832487106
+Epoch loss (1500): -0.2489823621548712 - RMSE: 0.4361478457450867
+Epoch loss (2000): -0.30682878353446724 - RMSE: 0.40895658016204833
+Epoch loss (2500): -0.2918866386935115 - RMSE: 0.41176124349236487
+
+--- TRAIN END AT EPOCH 2650 ---
+TRAINING TIME: 352.55162739753723 seconds
+Best epoch: 2150
+Epoch loss (2650): -0.3133955877448898 - RMSE: 0.397826016664505
+Training finished.
+Root Mean squared error: 0.22
+Mean absolute error: 0.12
+Max error: 2.28
+Number of uncertainy: 19
+Mean of stdv: 0.22
+TOP 10 maximum errors:
+Prediction mean: 3.02, stddev: 0.79, 95% CI: [4.56 - 1.48] - Actual: 4.27 - Mean error: -1.25
+Prediction mean: 3.01, stddev: 0.78, 95% CI: [4.55 - 1.48] - Actual: 4.31 - Mean error: -1.3
+Prediction mean: 3.01, stddev: 0.78, 95% CI: [4.55 - 1.48] - Actual: 4.45 - Mean error: -1.44
+Prediction mean: 2.99, stddev: 0.77, 95% CI: [4.5 - 1.48] - Actual: 4.47 - Mean error: -1.48
+Prediction mean: 2.99, stddev: 0.77, 95% CI: [4.51 - 1.48] - Actual: 4.48 - Mean error: -1.49
+Prediction mean: 3.02, stddev: 0.79, 95% CI: [4.57 - 1.48] - Actual: 4.53 - Mean error: -1.51
+Prediction mean: 3.01, stddev: 0.78, 95% CI: [4.54 - 1.48] - Actual: 4.61 - Mean error: -1.6
+Prediction mean: 3.03, stddev: 0.79, 95% CI: [4.58 - 1.47] - Actual: 4.7 - Mean error: -1.67
+Prediction mean: 2.98, stddev: 0.76, 95% CI: [4.47 - 1.48] - Actual: 4.94 - Mean error: -1.96
+Prediction mean: 2.98, stddev: 0.77, 95% CI: [4.49 - 1.48] - Actual: 5.26 - Mean error: -2.28
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1124660025835038 - RMSE: 1.0411855974197388
+Epoch loss (1000): -0.046257926550228146 - RMSE: 0.5513913368582726
+Epoch loss (1500): -0.20156080328393727 - RMSE: 0.4641919275522232
+Epoch loss (2000): -0.27978680354356766 - RMSE: 0.41284623789787295
+Epoch loss (2500): -0.3164699853658676 - RMSE: 0.41118442395329474
+Epoch loss (3000): -0.3369608463048935 - RMSE: 0.3929986103475094
+Epoch loss (3500): -0.3234144996106625 - RMSE: 0.4068626807630062
+
+--- TRAIN END AT EPOCH 3525 ---
+TRAINING TIME: 530.505836725235 seconds
+Best epoch: 3025
+Epoch loss (3525): -0.36170488131046297 - RMSE: 0.38983626025915147
+Training finished.
+Root Mean squared error: 0.23
+Mean absolute error: 0.11
+Max error: 2.38
+Number of uncertainy: 21
+Mean of stdv: 0.2
+TOP 10 maximum errors:
+Prediction mean: 2.93, stddev: 0.73, 95% CI: [4.36 - 1.49] - Actual: 4.27 - Mean error: -1.34
+Prediction mean: 2.92, stddev: 0.73, 95% CI: [4.35 - 1.49] - Actual: 4.31 - Mean error: -1.39
+Prediction mean: 2.99, stddev: 0.77, 95% CI: [4.49 - 1.49] - Actual: 4.48 - Mean error: -1.49
+Prediction mean: 2.93, stddev: 0.73, 95% CI: [4.37 - 1.49] - Actual: 4.45 - Mean error: -1.52
+Prediction mean: 2.96, stddev: 0.75, 95% CI: [4.42 - 1.49] - Actual: 4.53 - Mean error: -1.57
+Prediction mean: 2.88, stddev: 0.71, 95% CI: [4.27 - 1.5] - Actual: 4.47 - Mean error: -1.59
+Prediction mean: 2.91, stddev: 0.72, 95% CI: [4.33 - 1.49] - Actual: 4.61 - Mean error: -1.7
+Prediction mean: 2.98, stddev: 0.76, 95% CI: [4.47 - 1.49] - Actual: 4.7 - Mean error: -1.72
+Prediction mean: 2.85, stddev: 0.69, 95% CI: [4.19 - 1.5] - Actual: 4.94 - Mean error: -2.09
+Prediction mean: 2.88, stddev: 0.71, 95% CI: [4.26 - 1.5] - Actual: 5.26 - Mean error: -2.38
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1254686195850372 - RMSE: 1.0442192528247833
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 112.49558687210083 seconds
+Best epoch: 225
+Epoch loss (725): 1.1139706978797912 - RMSE: 1.0399540392160416
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1404414048194886 - RMSE: 1.0565658030509948
+Epoch loss (1000): 1.0813904861211776 - RMSE: 1.0254118807315826
+Epoch loss (1500): -0.09106353937229142 - RMSE: 0.5241426159143447
+Epoch loss (2000): -0.26270603358745576 - RMSE: 0.4287264205813408
+Epoch loss (2500): -0.35277998796105386 - RMSE: 0.3985394374728203
+Epoch loss (3000): -0.32368147041648626 - RMSE: 0.4229902950525284
+
+--- TRAIN END AT EPOCH 3000 ---
+TRAINING TIME: 453.243754863739 seconds
+Best epoch: 2500
+Epoch loss (3000): -0.32368147041648626 - RMSE: 0.4229902950525284
+Training finished.
+Root Mean squared error: 0.25
+Mean absolute error: 0.12
+Max error: 2.38
+Number of uncertainy: 33
+Mean of stdv: 0.18
+TOP 10 maximum errors:
+Prediction mean: 2.67, stddev: 0.59, 95% CI: [3.83 - 1.51] - Actual: 4.1 - Mean error: -1.43
+Prediction mean: 3.04, stddev: 0.81, 95% CI: [4.63 - 1.44] - Actual: 4.48 - Mean error: -1.44
+Prediction mean: 2.86, stddev: 0.7, 95% CI: [4.24 - 1.48] - Actual: 4.31 - Mean error: -1.45
+Prediction mean: 2.91, stddev: 0.73, 95% CI: [4.34 - 1.47] - Actual: 4.45 - Mean error: -1.54
+Prediction mean: 2.93, stddev: 0.75, 95% CI: [4.39 - 1.47] - Actual: 4.53 - Mean error: -1.6
+Prediction mean: 2.8, stddev: 0.67, 95% CI: [4.1 - 1.49] - Actual: 4.47 - Mean error: -1.67
+Prediction mean: 2.98, stddev: 0.78, 95% CI: [4.5 - 1.46] - Actual: 4.7 - Mean error: -1.72
+Prediction mean: 2.84, stddev: 0.69, 95% CI: [4.18 - 1.49] - Actual: 4.61 - Mean error: -1.77
+Prediction mean: 2.56, stddev: 0.54, 95% CI: [3.61 - 1.51] - Actual: 4.94 - Mean error: -2.38
+Prediction mean: 2.88, stddev: 0.71, 95% CI: [4.28 - 1.48] - Actual: 5.26 - Mean error: -2.38
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.136668459892273 - RMSE: 1.0486603972911834
+
+--- TRAIN END AT EPOCH 825 ---
+TRAINING TIME: 125.48272109031677 seconds
+Best epoch: 325
+Epoch loss (825): 1.1217406848669051 - RMSE: 1.0398176001310349
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1226156812906265 - RMSE: 1.0415682051181794
+Epoch loss (1000): -0.04423920981882839 - RMSE: 0.5524083633422852
+Epoch loss (1500): -0.2513589498698711 - RMSE: 0.44489258456230163
+Epoch loss (2000): -0.2587879240214825 - RMSE: 0.4173362607955933
+Epoch loss (2500): -0.2773942885387805 - RMSE: 0.43016505748033523
+
+--- TRAIN END AT EPOCH 2950 ---
+TRAINING TIME: 447.709361076355 seconds
+Best epoch: 2450
+Epoch loss (2950): -0.29288669347763063 - RMSE: 0.4150337899327278
+Training finished.
+Root Mean squared error: 0.23
+Mean absolute error: 0.13
+Max error: 2.32
+Number of uncertainy: 11
+Mean of stdv: 0.22
+TOP 10 maximum errors:
+Prediction mean: 3.0, stddev: 0.81, 95% CI: [4.6 - 1.41] - Actual: 4.27 - Mean error: -1.27
+Prediction mean: 2.99, stddev: 0.8, 95% CI: [4.55 - 1.42] - Actual: 4.31 - Mean error: -1.32
+Prediction mean: 3.02, stddev: 0.82, 95% CI: [4.63 - 1.41] - Actual: 4.48 - Mean error: -1.46
+Prediction mean: 2.98, stddev: 0.8, 95% CI: [4.55 - 1.42] - Actual: 4.45 - Mean error: -1.47
+Prediction mean: 2.94, stddev: 0.78, 95% CI: [4.46 - 1.42] - Actual: 4.47 - Mean error: -1.53
+Prediction mean: 3.0, stddev: 0.81, 95% CI: [4.6 - 1.41] - Actual: 4.53 - Mean error: -1.53
+Prediction mean: 2.97, stddev: 0.79, 95% CI: [4.52 - 1.42] - Actual: 4.61 - Mean error: -1.64
+Prediction mean: 3.02, stddev: 0.82, 95% CI: [4.63 - 1.41] - Actual: 4.7 - Mean error: -1.68
+Prediction mean: 2.92, stddev: 0.76, 95% CI: [4.42 - 1.43] - Actual: 4.94 - Mean error: -2.02
+Prediction mean: 2.94, stddev: 0.77, 95% CI: [4.46 - 1.43] - Actual: 5.26 - Mean error: -2.32
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1180995321273803 - RMSE: 1.0441093289852141
+Epoch loss (1000): 1.1098371492624284 - RMSE: 1.031528525710106
+Epoch loss (1500): -0.10385075842076913 - RMSE: 0.5227546023130417
+Epoch loss (2000): -0.2538544191718102 - RMSE: 0.4208688603043556
+Epoch loss (2500): -0.24226314429193735 - RMSE: 0.41918025970458983
+Epoch loss (3000): -0.3015411244556308 - RMSE: 0.41356875795125964
+Epoch loss (3500): -0.3288466523885727 - RMSE: 0.40046451169252395
+
+--- TRAIN END AT EPOCH 3500 ---
+TRAINING TIME: 530.7474312782288 seconds
+Best epoch: 3000
+Epoch loss (3500): -0.3288466523885727 - RMSE: 0.40046451169252395
+Training finished.
+Root Mean squared error: 0.23
+Mean absolute error: 0.13
+Max error: 2.23
+Number of uncertainy: 17
+Mean of stdv: 0.22
+TOP 10 maximum errors:
+Prediction mean: 3.1, stddev: 0.83, 95% CI: [4.72 - 1.47] - Actual: 4.27 - Mean error: -1.17
+Prediction mean: 3.08, stddev: 0.82, 95% CI: [4.68 - 1.48] - Actual: 4.31 - Mean error: -1.23
+Prediction mean: 3.13, stddev: 0.85, 95% CI: [4.78 - 1.47] - Actual: 4.48 - Mean error: -1.35
+Prediction mean: 3.09, stddev: 0.82, 95% CI: [4.7 - 1.48] - Actual: 4.45 - Mean error: -1.36
+Prediction mean: 3.06, stddev: 0.8, 95% CI: [4.63 - 1.48] - Actual: 4.47 - Mean error: -1.41
+Prediction mean: 3.11, stddev: 0.84, 95% CI: [4.75 - 1.47] - Actual: 4.53 - Mean error: -1.42
+Prediction mean: 3.08, stddev: 0.82, 95% CI: [4.68 - 1.48] - Actual: 4.61 - Mean error: -1.53
+Prediction mean: 3.12, stddev: 0.84, 95% CI: [4.78 - 1.47] - Actual: 4.7 - Mean error: -1.58
+Prediction mean: 3.01, stddev: 0.77, 95% CI: [4.52 - 1.49] - Actual: 4.94 - Mean error: -1.93
+Prediction mean: 3.03, stddev: 0.79, 95% CI: [4.57 - 1.49] - Actual: 5.26 - Mean error: -2.23
+########################################################################################
+Training model with SGD optimizer, 8 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1213027782440186 - RMSE: 1.0534812771081925
+
+--- TRAIN END AT EPOCH 950 ---
+TRAINING TIME: 144.38898372650146 seconds
+Best epoch: 450
+Epoch loss (950): 1.137308467388153 - RMSE: 1.057522419810295
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.9
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.31 - Mean error: -2.95
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.1] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.09] - Actual: 5.26 - Mean error: -3.9
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1364457553625107 - RMSE: 1.0465217761993408
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 116.73733305931091 seconds
+Best epoch: 200
+Epoch loss (700): 1.1310604809522629 - RMSE: 1.0587396844625474
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1236270748376846 - RMSE: 1.0553382048606872
+Epoch loss (1000): 0.6882898240089417 - RMSE: 0.7535601433515549
+Epoch loss (1500): -0.13745586276979885 - RMSE: 0.4988169257044792
+Epoch loss (2000): -0.30100309082865717 - RMSE: 0.43740860593318937
+Epoch loss (2500): -0.33478952530026435 - RMSE: 0.39373494040966034
+Epoch loss (3000): -0.32586764536798 - RMSE: 0.3909155237674713
+
+--- TRAIN END AT EPOCH 3275 ---
+TRAINING TIME: 551.3830862045288 seconds
+Best epoch: 2775
+Epoch loss (3275): -0.3874263231754303 - RMSE: 0.3728046461939812
+Training finished.
+Root Mean squared error: 0.19
+Mean absolute error: 0.11
+Max error: 2.0
+Number of uncertainy: 24
+Mean of stdv: 0.2
+TOP 10 maximum errors:
+Prediction mean: 3.28, stddev: 0.83, 95% CI: [4.9 - 1.65] - Actual: 4.27 - Mean error: -0.99
+Prediction mean: 3.28, stddev: 0.83, 95% CI: [4.91 - 1.65] - Actual: 4.31 - Mean error: -1.03
+Prediction mean: 3.28, stddev: 0.83, 95% CI: [4.9 - 1.65] - Actual: 4.45 - Mean error: -1.17
+Prediction mean: 3.25, stddev: 0.81, 95% CI: [4.84 - 1.66] - Actual: 4.48 - Mean error: -1.23
+Prediction mean: 3.23, stddev: 0.8, 95% CI: [4.81 - 1.66] - Actual: 4.47 - Mean error: -1.24
+Prediction mean: 3.28, stddev: 0.83, 95% CI: [4.91 - 1.65] - Actual: 4.53 - Mean error: -1.25
+Prediction mean: 3.26, stddev: 0.82, 95% CI: [4.87 - 1.65] - Actual: 4.61 - Mean error: -1.35
+Prediction mean: 3.29, stddev: 0.84, 95% CI: [4.94 - 1.65] - Actual: 4.7 - Mean error: -1.41
+Prediction mean: 3.22, stddev: 0.8, 95% CI: [4.79 - 1.66] - Actual: 4.94 - Mean error: -1.72
+Prediction mean: 3.26, stddev: 0.82, 95% CI: [4.86 - 1.65] - Actual: 5.26 - Mean error: -2.0
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1131584993600845 - RMSE: 1.0460878541469574
+Epoch loss (1000): 0.1841461402773857 - RMSE: 0.5566228779554367
+Epoch loss (1500): -0.2304864322245121 - RMSE: 0.4554152864217758
+Epoch loss (2000): -0.31303365068137645 - RMSE: 0.41977230036258695
+Epoch loss (2500): -0.31728718062490224 - RMSE: 0.40627458834648134
+Epoch loss (3000): -0.3314600006323308 - RMSE: 0.39805691576004026
+
+--- TRAIN END AT EPOCH 3175 ---
+TRAINING TIME: 532.0193493366241 seconds
+Best epoch: 2675
+Epoch loss (3175): -0.345827918112278 - RMSE: 0.4045011147260666
+Training finished.
+Root Mean squared error: 0.23
+Mean absolute error: 0.12
+Max error: 2.42
+Number of uncertainy: 32
+Mean of stdv: 0.21
+TOP 10 maximum errors:
+Prediction mean: 2.97, stddev: 0.81, 95% CI: [4.55 - 1.38] - Actual: 4.27 - Mean error: -1.3
+Prediction mean: 2.95, stddev: 0.79, 95% CI: [4.5 - 1.39] - Actual: 4.31 - Mean error: -1.36
+Prediction mean: 2.95, stddev: 0.8, 95% CI: [4.51 - 1.39] - Actual: 4.45 - Mean error: -1.5
+Prediction mean: 2.94, stddev: 0.79, 95% CI: [4.49 - 1.39] - Actual: 4.48 - Mean error: -1.54
+Prediction mean: 2.98, stddev: 0.82, 95% CI: [4.58 - 1.38] - Actual: 4.53 - Mean error: -1.55
+Prediction mean: 2.91, stddev: 0.78, 95% CI: [4.44 - 1.39] - Actual: 4.47 - Mean error: -1.56
+Prediction mean: 2.94, stddev: 0.79, 95% CI: [4.5 - 1.39] - Actual: 4.61 - Mean error: -1.67
+Prediction mean: 3.0, stddev: 0.83, 95% CI: [4.63 - 1.38] - Actual: 4.7 - Mean error: -1.7
+Prediction mean: 2.9, stddev: 0.77, 95% CI: [4.4 - 1.4] - Actual: 4.94 - Mean error: -2.04
+Prediction mean: 2.84, stddev: 0.73, 95% CI: [4.27 - 1.41] - Actual: 5.26 - Mean error: -2.42
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.13460513317585 - RMSE: 1.0610591307878494
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 125.09781956672668 seconds
+Best epoch: 250
+Epoch loss (750): 1.1158388608694076 - RMSE: 1.0442402247190476
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.128211212515831 - RMSE: 1.0366976113319397
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 124.85547518730164 seconds
+Best epoch: 250
+Epoch loss (750): 1.1305877709388732 - RMSE: 1.0509767723083496
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.132140945672989 - RMSE: 1.0549721081256866
+
+--- TRAIN END AT EPOCH 775 ---
+TRAINING TIME: 131.70112419128418 seconds
+Best epoch: 275
+Epoch loss (775): 1.1220198389291762 - RMSE: 1.0476284843683243
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.53
+Max error: 3.93
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.8 - -0.13] - Actual: 4.25 - Mean error: -2.91
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.31 - Mean error: -2.95
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.08] - Actual: 4.48 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.8 - -0.12] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.1] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.8 - -0.13] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.13] - Actual: 5.26 - Mean error: -3.93
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.132694574356079 - RMSE: 1.0542545785903932
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 105.98017954826355 seconds
+Best epoch: 125
+Epoch loss (625): 1.1461011271476746 - RMSE: 1.0558954199552537
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.89
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.82 - -0.07] - Actual: 4.31 - Mean error: -2.93
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.45 - Mean error: -3.08
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.1] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.07] - Actual: 5.26 - Mean error: -3.89
+########################################################################################
+Training model with SGD optimizer, 9 neurons in layer 1 and 8 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.110603455901146 - RMSE: 1.0426988170146942
+
+--- TRAIN END AT EPOCH 675 ---
+TRAINING TIME: 113.17241263389587 seconds
+Best epoch: 175
+Epoch loss (675): 1.1222972127199173 - RMSE: 1.0526505644321442
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.12] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1262188103199005 - RMSE: 1.0545095039606094
+
+--- TRAIN END AT EPOCH 600 ---
+TRAINING TIME: 111.40087008476257 seconds
+Best epoch: 100
+Epoch loss (600): 1.125884469628334 - RMSE: 1.051285600066185
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1224000506401062 - RMSE: 1.0648906322717666
+
+--- TRAIN END AT EPOCH 800 ---
+TRAINING TIME: 147.21384406089783 seconds
+Best epoch: 300
+Epoch loss (800): 1.1285309218168258 - RMSE: 1.0561675316095351
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.85
+Number of uncertainy: 44
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.37, stddev: 0.75, 95% CI: [2.84 - -0.11] - Actual: 4.27 - Mean error: -2.9
+Prediction mean: 1.33, stddev: 0.73, 95% CI: [2.76 - -0.1] - Actual: 4.25 - Mean error: -2.92
+Prediction mean: 1.43, stddev: 0.79, 95% CI: [2.98 - -0.13] - Actual: 4.45 - Mean error: -3.02
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.4, stddev: 0.77, 95% CI: [2.91 - -0.12] - Actual: 4.53 - Mean error: -3.13
+Prediction mean: 1.33, stddev: 0.72, 95% CI: [2.74 - -0.09] - Actual: 4.48 - Mean error: -3.15
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.41, stddev: 0.78, 95% CI: [2.95 - -0.12] - Actual: 4.7 - Mean error: -3.29
+Prediction mean: 1.38, stddev: 0.76, 95% CI: [2.87 - -0.11] - Actual: 4.94 - Mean error: -3.56
+Prediction mean: 1.41, stddev: 0.78, 95% CI: [2.94 - -0.12] - Actual: 5.26 - Mean error: -3.85
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1439022545814514 - RMSE: 1.0631079317331313
+
+--- TRAIN END AT EPOCH 850 ---
+TRAINING TIME: 161.04442048072815 seconds
+Best epoch: 350
+Epoch loss (850): 1.1399963910579682 - RMSE: 1.0568006185293197
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.53
+Max error: 3.89
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.06] - Actual: 4.27 - Mean error: -2.9
+Prediction mean: 1.38, stddev: 0.73, 95% CI: [2.8 - -0.05] - Actual: 4.31 - Mean error: -2.93
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.06] - Actual: 4.45 - Mean error: -3.08
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.06] - Actual: 4.47 - Mean error: -3.1
+Prediction mean: 1.38, stddev: 0.73, 95% CI: [2.8 - -0.05] - Actual: 4.48 - Mean error: -3.1
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.05] - Actual: 4.53 - Mean error: -3.16
+Prediction mean: 1.38, stddev: 0.72, 95% CI: [2.8 - -0.04] - Actual: 4.61 - Mean error: -3.23
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.06] - Actual: 4.7 - Mean error: -3.33
+Prediction mean: 1.38, stddev: 0.73, 95% CI: [2.8 - -0.04] - Actual: 4.94 - Mean error: -3.56
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.07] - Actual: 5.26 - Mean error: -3.89
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1082471460103989 - RMSE: 1.0356093900203704
+Epoch loss (1000): -0.03378711647843011 - RMSE: 0.5442809947133064
+Epoch loss (1500): -0.2184358748793602 - RMSE: 0.44291983181238176
+Epoch loss (2000): -0.2652441276879981 - RMSE: 0.4119679697751999
+Epoch loss (2500): -0.33635634967684747 - RMSE: 0.4031380062699318
+Epoch loss (3000): -0.32762873777747153 - RMSE: 0.39330220568180085
+Epoch loss (3500): -0.3437701754570007 - RMSE: 0.3876403047442436
+Epoch loss (4000): -0.3933289767503738 - RMSE: 0.37567751288414003
+Epoch loss (4500): -0.3908261123895645 - RMSE: 0.36429593685269357
+Epoch loss (5000): -0.3605328255370259 - RMSE: 0.3847530051767826
+
+--- TRAIN END AT EPOCH 5150 ---
+TRAINING TIME: 942.6599099636078 seconds
+Best epoch: 4650
+Epoch loss (5150): -0.3696444188468158 - RMSE: 0.38336957320570947
+Training finished.
+Root Mean squared error: 0.18
+Mean absolute error: 0.11
+Max error: 1.96
+Number of uncertainy: 10
+Mean of stdv: 0.2
+TOP 10 maximum errors:
+Prediction mean: 3.41, stddev: 0.88, 95% CI: [5.14 - 1.68] - Actual: 4.27 - Mean error: -0.86
+Prediction mean: 3.4, stddev: 0.88, 95% CI: [5.12 - 1.68] - Actual: 4.31 - Mean error: -0.91
+Prediction mean: 3.4, stddev: 0.88, 95% CI: [5.13 - 1.68] - Actual: 4.45 - Mean error: -1.05
+Prediction mean: 3.42, stddev: 0.89, 95% CI: [5.17 - 1.67] - Actual: 4.48 - Mean error: -1.06
+Prediction mean: 3.37, stddev: 0.86, 95% CI: [5.07 - 1.68] - Actual: 4.47 - Mean error: -1.1
+Prediction mean: 3.42, stddev: 0.89, 95% CI: [5.16 - 1.67] - Actual: 4.53 - Mean error: -1.11
+Prediction mean: 3.4, stddev: 0.88, 95% CI: [5.12 - 1.68] - Actual: 4.61 - Mean error: -1.21
+Prediction mean: 3.42, stddev: 0.89, 95% CI: [5.17 - 1.67] - Actual: 4.7 - Mean error: -1.28
+Prediction mean: 3.32, stddev: 0.83, 95% CI: [4.96 - 1.69] - Actual: 4.94 - Mean error: -1.62
+Prediction mean: 3.3, stddev: 0.82, 95% CI: [4.91 - 1.69] - Actual: 5.26 - Mean error: -1.96
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.130751975774765 - RMSE: 1.05137641787529
+
+--- TRAIN END AT EPOCH 925 ---
+TRAINING TIME: 169.35592937469482 seconds
+Best epoch: 425
+Epoch loss (925): 1.121312917470932 - RMSE: 1.0546940934658051
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1263225945234299 - RMSE: 1.0438336851596832
+
+--- TRAIN END AT EPOCH 850 ---
+TRAINING TIME: 155.82940888404846 seconds
+Best epoch: 350
+Epoch loss (850): 1.1178316115140914 - RMSE: 1.0470969189405441
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.54
+Max error: 3.88
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.4, stddev: 0.74, 95% CI: [2.85 - -0.05] - Actual: 4.27 - Mean error: -2.87
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.84 - -0.08] - Actual: 4.31 - Mean error: -2.93
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.84 - -0.07] - Actual: 4.45 - Mean error: -3.07
+Prediction mean: 1.39, stddev: 0.74, 95% CI: [2.85 - -0.06] - Actual: 4.47 - Mean error: -3.08
+Prediction mean: 1.39, stddev: 0.74, 95% CI: [2.85 - -0.06] - Actual: 4.48 - Mean error: -3.09
+Prediction mean: 1.4, stddev: 0.74, 95% CI: [2.85 - -0.06] - Actual: 4.53 - Mean error: -3.13
+Prediction mean: 1.39, stddev: 0.74, 95% CI: [2.85 - -0.06] - Actual: 4.61 - Mean error: -3.22
+Prediction mean: 1.4, stddev: 0.74, 95% CI: [2.85 - -0.06] - Actual: 4.7 - Mean error: -3.3
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.83 - -0.07] - Actual: 4.94 - Mean error: -3.56
+Prediction mean: 1.38, stddev: 0.75, 95% CI: [2.84 - -0.08] - Actual: 5.26 - Mean error: -3.88
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1288340127468108 - RMSE: 1.051262853860855
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 114.60307335853577 seconds
+Best epoch: 125
+Epoch loss (625): 1.1298680570125579 - RMSE: 1.0338882061243058
+Training finished.
+Root Mean squared error: 0.73
+Mean absolute error: 0.56
+Max error: 3.87
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.27 - Mean error: -2.91
+Prediction mean: 1.39, stddev: 0.74, 95% CI: [2.84 - -0.07] - Actual: 4.31 - Mean error: -2.92
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.47 - Mean error: -3.1
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.83 - -0.08] - Actual: 4.48 - Mean error: -3.11
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.53 - Mean error: -3.16
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.83 - -0.08] - Actual: 4.61 - Mean error: -3.24
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.7 - Mean error: -3.33
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.84 - -0.08] - Actual: 4.94 - Mean error: -3.56
+Prediction mean: 1.39, stddev: 0.74, 95% CI: [2.85 - -0.07] - Actual: 5.26 - Mean error: -3.87
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 8 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1349200681447982 - RMSE: 1.062521007180214
+Epoch loss (1000): 1.1224051948785783 - RMSE: 1.0498427412509919
+
+--- TRAIN END AT EPOCH 1100 ---
+TRAINING TIME: 200.6418318748474 seconds
+Best epoch: 600
+Epoch loss (1100): 1.1251582641601563 - RMSE: 1.0400584714412688
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.93
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 5.26 - Mean error: -3.93
+########################################################################################
+Training model with SGD optimizer, 10 neurons in layer 1 and 9 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.140093565106392 - RMSE: 1.0676018612384797
+Epoch loss (1000): 1.1204743820428849 - RMSE: 1.056229199886322
+
+--- TRAIN END AT EPOCH 1125 ---
+TRAINING TIME: 209.90553450584412 seconds
+Best epoch: 625
+Epoch loss (1125): 1.129373666524887 - RMSE: 1.0485828511714936
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.12] - Actual: 4.27 - Mean error: -2.94
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.12] - Actual: 4.31 - Mean error: -2.98
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.12] - Actual: 4.45 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.1] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1317022743225098 - RMSE: 1.0405737091302871
+
+--- TRAIN END AT EPOCH 550 ---
+TRAINING TIME: 112.90531945228577 seconds
+Best epoch: 50
+Epoch loss (550): 1.117591892361641 - RMSE: 1.0506765127182007
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1142008994817734 - RMSE: 1.0378368701934815
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 148.81178426742554 seconds
+Best epoch: 225
+Epoch loss (725): 1.1176954567432404 - RMSE: 1.0410269980430602
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1263238513469696 - RMSE: 1.0414601415395737
+Epoch loss (1000): 1.1280528562068939 - RMSE: 1.0421725537776947
+
+--- TRAIN END AT EPOCH 1250 ---
+TRAINING TIME: 255.4461486339569 seconds
+Best epoch: 750
+Epoch loss (1250): 1.1255861068964004 - RMSE: 1.0489894154071808
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.73, 95% CI: [2.79 - -0.09] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.09] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1396364101171494 - RMSE: 1.0621844059228898
+
+--- TRAIN END AT EPOCH 825 ---
+TRAINING TIME: 170.0467767715454 seconds
+Best epoch: 325
+Epoch loss (825): 1.11891462123394 - RMSE: 1.0589474630355835
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.9
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.25 - Mean error: -2.91
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.31 - Mean error: -2.95
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.45 - Mean error: -3.09
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.47 - Mean error: -3.14
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.48 - Mean error: -3.16
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 5.26 - Mean error: -3.9
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.125922925233841 - RMSE: 1.0504457548856736
+
+--- TRAIN END AT EPOCH 550 ---
+TRAINING TIME: 112.57660937309265 seconds
+Best epoch: 50
+Epoch loss (550): 1.1274934766292573 - RMSE: 1.0589054440259933
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1363690867424012 - RMSE: 1.0605381610393525
+
+--- TRAIN END AT EPOCH 800 ---
+TRAINING TIME: 164.47646117210388 seconds
+Best epoch: 300
+Epoch loss (800): 1.137709904074669 - RMSE: 1.0531712750196456
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.27 - Mean error: -2.91
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.83 - -0.11] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1169688529968262 - RMSE: 1.043843527197838
+
+--- TRAIN END AT EPOCH 600 ---
+TRAINING TIME: 123.57948994636536 seconds
+Best epoch: 100
+Epoch loss (600): 1.1177982013225556 - RMSE: 1.0380844877958297
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.17] - Actual: 4.27 - Mean error: -2.95
+Prediction mean: 1.33, stddev: 0.76, 95% CI: [2.81 - -0.16] - Actual: 4.31 - Mean error: -2.98
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.18] - Actual: 4.45 - Mean error: -3.13
+Prediction mean: 1.33, stddev: 0.76, 95% CI: [2.81 - -0.16] - Actual: 4.47 - Mean error: -3.14
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.17] - Actual: 4.48 - Mean error: -3.16
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.17] - Actual: 4.53 - Mean error: -3.21
+Prediction mean: 1.33, stddev: 0.76, 95% CI: [2.81 - -0.16] - Actual: 4.61 - Mean error: -3.28
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.18] - Actual: 4.7 - Mean error: -3.38
+Prediction mean: 1.33, stddev: 0.76, 95% CI: [2.81 - -0.16] - Actual: 4.94 - Mean error: -3.61
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 8 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1303151804208755 - RMSE: 1.0511590193510056
+Epoch loss (1000): 1.1215649641752243 - RMSE: 1.0547294068336486
+
+--- TRAIN END AT EPOCH 1400 ---
+TRAINING TIME: 285.4364261627197 seconds
+Best epoch: 900
+Epoch loss (1400): 1.1312877306938172 - RMSE: 1.0682197875976562
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.36, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.83 - -0.12] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 9 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1421932051181793 - RMSE: 1.0539723811149597
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 153.44979047775269 seconds
+Best epoch: 250
+Epoch loss (750): 1.1151233336925506 - RMSE: 1.0279455207586288
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.93
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.14] - Actual: 4.27 - Mean error: -2.94
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.14] - Actual: 4.31 - Mean error: -2.98
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.14] - Actual: 5.26 - Mean error: -3.93
+########################################################################################
+Training model with SGD optimizer, 11 neurons in layer 1 and 10 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1457851365804672 - RMSE: 1.0747631068229675
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 128.33015370368958 seconds
+Best epoch: 125
+Epoch loss (625): 1.131898265361786 - RMSE: 1.0722678904533387
+Training finished.
+Root Mean squared error: 0.73
+Mean absolute error: 0.55
+Max error: 3.96
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.29, stddev: 0.78, 95% CI: [2.81 - -0.23] - Actual: 4.25 - Mean error: -2.96
+Prediction mean: 1.32, stddev: 0.76, 95% CI: [2.81 - -0.18] - Actual: 4.31 - Mean error: -2.99
+Prediction mean: 1.3, stddev: 0.76, 95% CI: [2.8 - -0.19] - Actual: 4.45 - Mean error: -3.15
+Prediction mean: 1.3, stddev: 0.77, 95% CI: [2.81 - -0.22] - Actual: 4.47 - Mean error: -3.17
+Prediction mean: 1.28, stddev: 0.78, 95% CI: [2.8 - -0.24] - Actual: 4.48 - Mean error: -3.2
+Prediction mean: 1.3, stddev: 0.77, 95% CI: [2.81 - -0.21] - Actual: 4.53 - Mean error: -3.23
+Prediction mean: 1.28, stddev: 0.78, 95% CI: [2.81 - -0.24] - Actual: 4.61 - Mean error: -3.33
+Prediction mean: 1.3, stddev: 0.77, 95% CI: [2.81 - -0.22] - Actual: 4.7 - Mean error: -3.4
+Prediction mean: 1.29, stddev: 0.78, 95% CI: [2.82 - -0.23] - Actual: 4.94 - Mean error: -3.65
+Prediction mean: 1.3, stddev: 0.76, 95% CI: [2.8 - -0.19] - Actual: 5.26 - Mean error: -3.96
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1283276884555817 - RMSE: 1.0511102633476257
+Epoch loss (1000): 1.1343117463588714 - RMSE: 1.0685810964107514
+
+--- TRAIN END AT EPOCH 1250 ---
+TRAINING TIME: 283.7194230556488 seconds
+Best epoch: 750
+Epoch loss (1250): 1.130739875793457 - RMSE: 1.0467263205051422
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1251569970846176 - RMSE: 1.0538474788665773
+
+--- TRAIN END AT EPOCH 575 ---
+TRAINING TIME: 130.86525678634644 seconds
+Best epoch: 75
+Epoch loss (575): 1.123011137008667 - RMSE: 1.0495185663700104
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1301176736354828 - RMSE: 1.0534316828250885
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 174.47719550132751 seconds
+Best epoch: 250
+Epoch loss (750): 1.1323684723377228 - RMSE: 1.0549485800266265
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.53
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.09] - Actual: 4.27 - Mean error: -2.91
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.36, stddev: 0.73, 95% CI: [2.8 - -0.08] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.37, stddev: 0.73, 95% CI: [2.8 - -0.07] - Actual: 4.48 - Mean error: -3.11
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.08] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.08] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.8 - -0.08] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.134898115158081 - RMSE: 1.0544794787168503
+Epoch loss (1000): 1.1172423460483552 - RMSE: 1.0509144189357758
+Epoch loss (1500): 1.127926286816597 - RMSE: 1.0451951533555985
+
+--- TRAIN END AT EPOCH 1725 ---
+TRAINING TIME: 391.81148290634155 seconds
+Best epoch: 1225
+Epoch loss (1725): 1.1165574482679368 - RMSE: 1.0336484723091126
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.09] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1393553087711334 - RMSE: 1.046770929336548
+
+--- TRAIN END AT EPOCH 850 ---
+TRAINING TIME: 193.70442152023315 seconds
+Best epoch: 350
+Epoch loss (850): 1.1370830760002135 - RMSE: 1.0492542407512664
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.92
+Number of uncertainy: 44
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.33, stddev: 0.73, 95% CI: [2.76 - -0.1] - Actual: 4.47 - Mean error: -3.14
+Prediction mean: 1.33, stddev: 0.73, 95% CI: [2.77 - -0.1] - Actual: 4.48 - Mean error: -3.15
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.77 - -0.1] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.1] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.1] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1351954735517502 - RMSE: 1.0627668013572693
+Epoch loss (1000): 1.1358267699480056 - RMSE: 1.0592789883613587
+Epoch loss (1500): 0.059084004756587094 - RMSE: 0.5361925644278527
+Epoch loss (2000): -0.20496789029240609 - RMSE: 0.46332641106843947
+Epoch loss (2500): -0.261099305909127 - RMSE: 0.42072958195209503
+Epoch loss (3000): -0.3079322897642851 - RMSE: 0.4141846414208412
+Epoch loss (3500): -0.3349365803450346 - RMSE: 0.3983647604584694
+Epoch loss (4000): -0.3567415979504585 - RMSE: 0.38325772213935855
+Epoch loss (4500): -0.3626983273625374 - RMSE: 0.3828174911737442
+Epoch loss (5000): -0.3976190343797207 - RMSE: 0.3685561786293983
+Epoch loss (5500): -0.3937032578289509 - RMSE: 0.3697854479551315
+Epoch loss (6000): -0.3839128468520939 - RMSE: 0.3730750502645969
+
+--- TRAIN END AT EPOCH 6075 ---
+TRAINING TIME: 1361.502551317215 seconds
+Best epoch: 5575
+Epoch loss (6075): -0.38403189296275375 - RMSE: 0.36650661838054654
+Training finished.
+Root Mean squared error: 0.18
+Mean absolute error: 0.11
+Max error: 1.8
+Number of uncertainy: 18
+Mean of stdv: 0.18
+TOP 10 maximum errors:
+Prediction mean: 3.4, stddev: 0.84, 95% CI: [5.04 - 1.77] - Actual: 4.25 - Mean error: -0.85
+Prediction mean: 3.46, stddev: 0.87, 95% CI: [5.17 - 1.76] - Actual: 4.45 - Mean error: -0.99
+Prediction mean: 3.43, stddev: 0.85, 95% CI: [5.1 - 1.76] - Actual: 4.48 - Mean error: -1.05
+Prediction mean: 3.46, stddev: 0.87, 95% CI: [5.16 - 1.76] - Actual: 4.53 - Mean error: -1.07
+Prediction mean: 3.31, stddev: 0.79, 95% CI: [4.85 - 1.77] - Actual: 4.47 - Mean error: -1.16
+Prediction mean: 2.2, stddev: 0.33, 95% CI: [2.84 - 1.56] - Actual: 3.4 - Mean error: -1.2
+Prediction mean: 3.39, stddev: 0.83, 95% CI: [5.0 - 1.77] - Actual: 4.61 - Mean error: -1.22
+Prediction mean: 3.47, stddev: 0.87, 95% CI: [5.18 - 1.76] - Actual: 4.7 - Mean error: -1.23
+Prediction mean: 3.41, stddev: 0.84, 95% CI: [5.05 - 1.76] - Actual: 4.94 - Mean error: -1.53
+Prediction mean: 3.46, stddev: 0.87, 95% CI: [5.16 - 1.76] - Actual: 5.26 - Mean error: -1.8
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1261034880876541 - RMSE: 1.053990273118019
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 140.77041792869568 seconds
+Best epoch: 125
+Epoch loss (625): 1.1403587324619293 - RMSE: 1.0646343274116516
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.95
+Number of uncertainy: 44
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.78 - -0.14] - Actual: 4.27 - Mean error: -2.95
+Prediction mean: 1.31, stddev: 0.75, 95% CI: [2.77 - -0.16] - Actual: 4.31 - Mean error: -3.0
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.8 - -0.12] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.31, stddev: 0.75, 95% CI: [2.78 - -0.16] - Actual: 4.45 - Mean error: -3.14
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.78 - -0.14] - Actual: 4.48 - Mean error: -3.16
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.13] - Actual: 4.53 - Mean error: -3.2
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.79 - -0.13] - Actual: 4.61 - Mean error: -3.28
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.8 - -0.13] - Actual: 4.7 - Mean error: -3.37
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.12] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.31, stddev: 0.75, 95% CI: [2.78 - -0.16] - Actual: 5.26 - Mean error: -3.95
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 8 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.129224454164505 - RMSE: 1.0497872029542923
+
+--- TRAIN END AT EPOCH 600 ---
+TRAINING TIME: 135.43223595619202 seconds
+Best epoch: 100
+Epoch loss (600): 1.1276161890029908 - RMSE: 1.0473314954042434
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.53
+Max error: 3.99
+Number of uncertainy: 46
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.74 - -0.12] - Actual: 4.25 - Mean error: -2.94
+Prediction mean: 1.29, stddev: 0.74, 95% CI: [2.73 - -0.16] - Actual: 4.31 - Mean error: -3.02
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.75 - -0.12] - Actual: 4.47 - Mean error: -3.16
+Prediction mean: 1.28, stddev: 0.74, 95% CI: [2.73 - -0.16] - Actual: 4.45 - Mean error: -3.17
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.75 - -0.12] - Actual: 4.48 - Mean error: -3.17
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.12] - Actual: 4.53 - Mean error: -3.21
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.75 - -0.12] - Actual: 4.61 - Mean error: -3.3
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.74 - -0.12] - Actual: 4.7 - Mean error: -3.39
+Prediction mean: 1.33, stddev: 0.73, 95% CI: [2.77 - -0.1] - Actual: 4.94 - Mean error: -3.61
+Prediction mean: 1.27, stddev: 0.74, 95% CI: [2.72 - -0.18] - Actual: 5.26 - Mean error: -3.99
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 9 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1288141071796418 - RMSE: 1.0580944588184358
+
+--- TRAIN END AT EPOCH 600 ---
+TRAINING TIME: 135.68442153930664 seconds
+Best epoch: 100
+Epoch loss (600): 1.1239550113677979 - RMSE: 1.0381589283943176
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.94
+Number of uncertainy: 47
+Mean of stdv: 0.73
+TOP 10 maximum errors:
+Prediction mean: 1.31, stddev: 0.73, 95% CI: [2.73 - -0.12] - Actual: 4.27 - Mean error: -2.96
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.31 - Mean error: -2.99
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.45 - Mean error: -3.13
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.47 - Mean error: -3.15
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.48 - Mean error: -3.16
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.53 - Mean error: -3.21
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.61 - Mean error: -3.29
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.7 - Mean error: -3.38
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 4.94 - Mean error: -3.62
+Prediction mean: 1.32, stddev: 0.73, 95% CI: [2.75 - -0.11] - Actual: 5.26 - Mean error: -3.94
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 10 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1263915573358536 - RMSE: 1.036700950741768
+
+--- TRAIN END AT EPOCH 650 ---
+TRAINING TIME: 147.68377351760864 seconds
+Best epoch: 150
+Epoch loss (650): 1.1368176468610764 - RMSE: 1.055724003314972
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 44
+Mean of stdv: 0.73
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.45 - Mean error: -3.12
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.12] - Actual: 4.7 - Mean error: -3.37
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.94 - Mean error: -3.61
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 12 neurons in layer 1 and 11 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1249420276880264 - RMSE: 1.056995827436447
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 170.47146081924438 seconds
+Best epoch: 225
+Epoch loss (725): 1.1313030331134797 - RMSE: 1.0568326790332794
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.1] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.73, 95% CI: [2.78 - -0.1] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 1 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1279764777421952 - RMSE: 1.0446956409215926
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 190.8852379322052 seconds
+Best epoch: 250
+Epoch loss (750): 1.1175649551153184 - RMSE: 1.0434203424453736
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 2 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1214028706550598 - RMSE: 1.035409057855606
+Epoch loss (1000): 0.5757264402508736 - RMSE: 0.7349649192094803
+Epoch loss (1500): -0.10617573594790883 - RMSE: 0.5181099619865418
+Epoch loss (2000): -0.29530139539390804 - RMSE: 0.4105976176559925
+Epoch loss (2500): -0.33557157787680625 - RMSE: 0.3886463180184364
+Epoch loss (3000): -0.34927844658493995 - RMSE: 0.3833526245355606
+
+--- TRAIN END AT EPOCH 3275 ---
+TRAINING TIME: 825.8480389118195 seconds
+Best epoch: 2775
+Epoch loss (3275): -0.39093519043922426 - RMSE: 0.37515528851747515
+Training finished.
+Root Mean squared error: 0.2
+Mean absolute error: 0.12
+Max error: 1.85
+Number of uncertainy: 17
+Mean of stdv: 0.21
+TOP 10 maximum errors:
+Prediction mean: 3.43, stddev: 0.91, 95% CI: [5.21 - 1.65] - Actual: 4.27 - Mean error: -0.84
+Prediction mean: 3.42, stddev: 0.91, 95% CI: [5.2 - 1.65] - Actual: 4.31 - Mean error: -0.89
+Prediction mean: 3.42, stddev: 0.91, 95% CI: [5.2 - 1.65] - Actual: 4.45 - Mean error: -1.03
+Prediction mean: 3.43, stddev: 0.91, 95% CI: [5.22 - 1.65] - Actual: 4.48 - Mean error: -1.05
+Prediction mean: 3.41, stddev: 0.9, 95% CI: [5.16 - 1.65] - Actual: 4.47 - Mean error: -1.06
+Prediction mean: 3.43, stddev: 0.91, 95% CI: [5.21 - 1.65] - Actual: 4.53 - Mean error: -1.1
+Prediction mean: 3.42, stddev: 0.9, 95% CI: [5.19 - 1.65] - Actual: 4.61 - Mean error: -1.19
+Prediction mean: 3.43, stddev: 0.91, 95% CI: [5.22 - 1.65] - Actual: 4.7 - Mean error: -1.27
+Prediction mean: 3.39, stddev: 0.89, 95% CI: [5.13 - 1.65] - Actual: 4.94 - Mean error: -1.55
+Prediction mean: 3.41, stddev: 0.9, 95% CI: [5.16 - 1.65] - Actual: 5.26 - Mean error: -1.85
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 3 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1179328198432923 - RMSE: 1.0413983949422836
+
+--- TRAIN END AT EPOCH 850 ---
+TRAINING TIME: 213.72360467910767 seconds
+Best epoch: 350
+Epoch loss (850): 1.146784067630768 - RMSE: 1.0523456500768662
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.92
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.14] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.14] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.14] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 4 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.127266753911972 - RMSE: 1.0517173167467118
+
+--- TRAIN END AT EPOCH 775 ---
+TRAINING TIME: 195.7013623714447 seconds
+Best epoch: 275
+Epoch loss (775): 1.1446930668354034 - RMSE: 1.0562460296154021
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.12] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.81 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 5 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.111116501569748 - RMSE: 1.0489001413583756
+
+--- TRAIN END AT EPOCH 700 ---
+TRAINING TIME: 175.96140670776367 seconds
+Best epoch: 200
+Epoch loss (700): 1.1223842223882676 - RMSE: 1.042848138332367
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.56
+Max error: 3.88
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.83 - -0.08] - Actual: 4.31 - Mean error: -2.93
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.83 - -0.09] - Actual: 4.45 - Mean error: -3.08
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.47 - Mean error: -3.11
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.53 - Mean error: -3.17
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.83 - -0.08] - Actual: 4.94 - Mean error: -3.57
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.83 - -0.08] - Actual: 5.26 - Mean error: -3.88
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 6 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.12348599255085 - RMSE: 1.046338133573532
+Epoch loss (1000): 1.1230824874639511 - RMSE: 1.0492918628454209
+
+--- TRAIN END AT EPOCH 1325 ---
+TRAINING TIME: 329.98925399780273 seconds
+Best epoch: 825
+Epoch loss (1325): 1.1092870568037032 - RMSE: 1.041855511903763
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.09] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 7 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1491032123565674 - RMSE: 1.0660118434429169
+
+--- TRAIN END AT EPOCH 725 ---
+TRAINING TIME: 180.9689962863922 seconds
+Best epoch: 225
+Epoch loss (725): 1.1400480341911317 - RMSE: 1.0607280933856964
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.48 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.53 - Mean error: -3.19
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.61 - Mean error: -3.26
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 8 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1204693423509597 - RMSE: 1.0387506774663926
+
+--- TRAIN END AT EPOCH 850 ---
+TRAINING TIME: 212.70689797401428 seconds
+Best epoch: 350
+Epoch loss (850): 1.135641010761261 - RMSE: 1.0454527677297591
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.92
+Number of uncertainy: 43
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.27 - Mean error: -2.93
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.47 - Mean error: -3.13
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.53 - Mean error: -3.2
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 4.7 - Mean error: -3.37
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.11] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 5.26 - Mean error: -3.92
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 9 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1304669365882873 - RMSE: 1.0537001740932466
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 162.33993005752563 seconds
+Best epoch: 125
+Epoch loss (625): 1.1282013229131698 - RMSE: 1.0472980729341508
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.54
+Max error: 3.9
+Number of uncertainy: 42
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.38, stddev: 0.74, 95% CI: [2.82 - -0.07] - Actual: 4.27 - Mean error: -2.89
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.31 - Mean error: -2.94
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.45 - Mean error: -3.08
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.47 - Mean error: -3.1
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.37, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.53 - Mean error: -3.16
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.1] - Actual: 4.7 - Mean error: -3.34
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.09] - Actual: 4.94 - Mean error: -3.58
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.82 - -0.09] - Actual: 5.26 - Mean error: -3.9
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 10 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1340559715032577 - RMSE: 1.0517476649284363
+
+--- TRAIN END AT EPOCH 750 ---
+TRAINING TIME: 191.47277450561523 seconds
+Best epoch: 250
+Epoch loss (750): 1.1094050093889236 - RMSE: 1.034767436027527
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.55
+Max error: 3.91
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.27 - Mean error: -2.92
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.45 - Mean error: -3.1
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.81 - -0.13] - Actual: 4.48 - Mean error: -3.14
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.34, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.61 - Mean error: -3.27
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 4.7 - Mean error: -3.35
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.12] - Actual: 4.94 - Mean error: -3.59
+Prediction mean: 1.35, stddev: 0.75, 95% CI: [2.82 - -0.13] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 11 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.140544331073761 - RMSE: 1.0534196116924286
+
+--- TRAIN END AT EPOCH 675 ---
+TRAINING TIME: 174.1681215763092 seconds
+Best epoch: 175
+Epoch loss (675): 1.12579430437088 - RMSE: 1.0517949695587159
+Training finished.
+Root Mean squared error: 0.72
+Mean absolute error: 0.54
+Max error: 3.91
+Number of uncertainy: 45
+Mean of stdv: 0.74
+TOP 10 maximum errors:
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.27 - Mean error: -2.95
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.31 - Mean error: -2.97
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.78 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.47 - Mean error: -3.15
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.48 - Mean error: -3.16
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.53 - Mean error: -3.21
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.61 - Mean error: -3.29
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.7 - Mean error: -3.38
+Prediction mean: 1.32, stddev: 0.74, 95% CI: [2.77 - -0.13] - Actual: 4.94 - Mean error: -3.62
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.8 - -0.1] - Actual: 5.26 - Mean error: -3.91
+########################################################################################
+Training model with SGD optimizer, 13 neurons in layer 1 and 12 neurons in layer 2
+########################################################################################
+Start training the model...
+Epoch loss (500): 1.1228151681423186 - RMSE: 1.0395696516036987
+
+--- TRAIN END AT EPOCH 625 ---
+TRAINING TIME: 161.01828241348267 seconds
+Best epoch: 125
+Epoch loss (625): 1.1390332417488098 - RMSE: 1.0628454195261001
+Training finished.
+Root Mean squared error: 0.71
+Mean absolute error: 0.54
+Max error: 3.93
+Number of uncertainy: 42
+Mean of stdv: 0.75
+TOP 10 maximum errors:
+Prediction mean: 1.33, stddev: 0.75, 95% CI: [2.79 - -0.13] - Actual: 4.27 - Mean error: -2.94
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.11] - Actual: 4.31 - Mean error: -2.96
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.45 - Mean error: -3.11
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.47 - Mean error: -3.12
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.48 - Mean error: -3.12
+Prediction mean: 1.35, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.53 - Mean error: -3.18
+Prediction mean: 1.36, stddev: 0.74, 95% CI: [2.81 - -0.1] - Actual: 4.61 - Mean error: -3.25
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.11] - Actual: 4.7 - Mean error: -3.36
+Prediction mean: 1.34, stddev: 0.74, 95% CI: [2.8 - -0.12] - Actual: 4.94 - Mean error: -3.6
+Prediction mean: 1.33, stddev: 0.74, 95% CI: [2.79 - -0.12] - Actual: 5.26 - Mean error: -3.93

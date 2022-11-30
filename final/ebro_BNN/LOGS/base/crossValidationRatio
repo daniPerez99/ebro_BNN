@@ -1,0 +1,160 @@
+#######################################################################
+Training model fold nº 1, epoch 2375, layer1 8, layer2 4, iter base
+#######################################################################
+Start training the model...
+Epoch loss (500): -0.4851686306297779 - RMSE: 0.373331205248832713
+Epoch loss (1000): -0.5553316553235054 - RMSE: 0.34832720026373865
+Epoch loss (1500): -0.5179675551876426 - RMSE: 0.328745941281318774
+Epoch loss (2000): -0.5641079854369163 - RMSE: 0.323175085544586256
+Epoch loss (2370): -0.5269163131713868 - RMSE: 0.339580628275871277
+--- TRAIN END AT EPOCH 2375 ---
+TRAINING TIME: 335.1994378566742 seconds
+Best epoch: 0
+Epoch loss (2375): -0.5687012255191803 - RMSE: 0.33053021430969237
+Training finished.
+Root mean squared error: 0.22
+Mean absolute error: 0.17
+Max error: 1.81
+Number of uncertainy: 107
+Mean of stddev: 0.22
+TOP 10 maximum errors:
+Prediction mean: 3.76, stddev: 1.0, 95% CI: [5.71 - 1.8] - Actual: 4.53 - Mean error: -0.77
+Prediction mean: 3.76, stddev: 1.0, 95% CI: [5.71 - 1.8] - Actual: 4.74 - Mean error: -0.98
+Prediction mean: 3.31, stddev: 0.75, 95% CI: [4.78 - 1.83] - Actual: 4.38 - Mean error: -1.07
+Prediction mean: 1.05, stddev: 0.11, 95% CI: [1.26 - 0.84] - Actual: 2.13 - Mean error: -1.08
+Prediction mean: 3.75, stddev: 0.99, 95% CI: [5.7 - 1.8] - Actual: 4.84 - Mean error: -1.09
+Prediction mean: 3.75, stddev: 0.99, 95% CI: [5.69 - 1.8] - Actual: 4.94 - Mean error: -1.19
+Prediction mean: 3.76, stddev: 1.0, 95% CI: [5.71 - 1.8] - Actual: 5.1 - Mean error: -1.34
+Prediction mean: 3.76, stddev: 1.0, 95% CI: [5.71 - 1.8] - Actual: 5.13 - Mean error: -1.37
+Prediction mean: 3.76, stddev: 1.0, 95% CI: [5.71 - 1.8] - Actual: 5.53 - Mean error: -1.77
+Prediction mean: 3.73, stddev: 0.98, 95% CI: [5.64 - 1.81] - Actual: 5.54 - Mean error: -1.81
+#######################################################################
+Training model fold nº 2, epoch 2375, layer1 8, layer2 4, iter base
+#######################################################################
+Start training the model...
+Epoch loss (500): -0.2911829176470637 - RMSE: 0.399354207634925854
+Epoch loss (1000): -0.3145679054781795 - RMSE: 0.39684384471178053
+Epoch loss (1500): -0.3405410166680813 - RMSE: 0.362447608411312183
+Epoch loss (2000): -0.36324753072857857 - RMSE: 0.36763713100552565
+Epoch loss (2370): -0.34929078817367554 - RMSE: 0.37793094217777254
+--- TRAIN END AT EPOCH 2375 ---
+TRAINING TIME: 333.0236885547638 seconds
+Best epoch: 0
+Epoch loss (2375): -0.3556642889976501 - RMSE: 0.3526201963424683
+Training finished.
+Root mean squared error: 0.11
+Mean absolute error: 0.08
+Max error: 0.68
+Number of uncertainy: 14
+Mean of stddev: 0.15
+TOP 10 maximum errors:
+Prediction mean: 3.71, stddev: 0.92, 95% CI: [5.51 - 1.9] - Actual: 4.11 - Mean error: -0.4
+Prediction mean: 2.2, stddev: 0.32, 95% CI: [2.83 - 1.58] - Actual: 2.62 - Mean error: -0.42
+Prediction mean: 2.09, stddev: 0.29, 95% CI: [2.66 - 1.52] - Actual: 2.52 - Mean error: -0.43
+Prediction mean: 3.54, stddev: 0.83, 95% CI: [5.16 - 1.92] - Actual: 3.08 - Mean error: 0.46
+Prediction mean: 3.71, stddev: 0.92, 95% CI: [5.51 - 1.9] - Actual: 4.18 - Mean error: -0.47
+Prediction mean: 2.51, stddev: 0.4, 95% CI: [3.3 - 1.72] - Actual: 3.04 - Mean error: -0.53
+Prediction mean: 3.68, stddev: 0.9, 95% CI: [5.45 - 1.91] - Actual: 4.23 - Mean error: -0.55
+Prediction mean: 3.71, stddev: 0.92, 95% CI: [5.51 - 1.9] - Actual: 4.31 - Mean error: -0.6
+Prediction mean: 3.67, stddev: 0.9, 95% CI: [5.44 - 1.91] - Actual: 3.03 - Mean error: 0.64
+Prediction mean: 3.43, stddev: 0.77, 95% CI: [4.95 - 1.92] - Actual: 4.11 - Mean error: -0.68
+#######################################################################
+Training model fold nº 3, epoch 2375, layer1 8, layer2 4, iter base
+#######################################################################
+Start training the model...
+Epoch loss (500): -0.36439390313625336 - RMSE: 0.38642503803968437
+Epoch loss (1000): -0.4189207238256931 - RMSE: 0.35210070765018464
+Epoch loss (1500): -0.42051266980171204 - RMSE: 0.33464150616526606
+Epoch loss (2000): -0.46956552350521086 - RMSE: 0.32932006716728216
+Epoch loss (2370): -0.43052715361118316 - RMSE: 0.35005553662776945
+--- TRAIN END AT EPOCH 2375 ---
+TRAINING TIME: 334.3077657222748 seconds
+Best epoch: 0
+Epoch loss (2375): -0.4792959362268448 - RMSE: 0.3135296255350113
+Training finished.
+Root mean squared error: 0.21
+Mean absolute error: 0.11
+Max error: 2.44
+Number of uncertainy: 20
+Mean of stddev: 0.21
+TOP 10 maximum errors:
+Prediction mean: 3.48, stddev: 0.84, 95% CI: [5.13 - 1.83] - Actual: 4.61 - Mean error: -1.13
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.09 - 1.83] - Actual: 4.61 - Mean error: -1.15
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.09 - 1.83] - Actual: 4.63 - Mean error: -1.17
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.09 - 1.83] - Actual: 4.7 - Mean error: -1.24
+Prediction mean: 3.49, stddev: 0.85, 95% CI: [5.15 - 1.83] - Actual: 4.73 - Mean error: -1.24
+Prediction mean: 3.48, stddev: 0.84, 95% CI: [5.14 - 1.83] - Actual: 4.75 - Mean error: -1.27
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.09 - 1.83] - Actual: 4.94 - Mean error: -1.48
+Prediction mean: 3.48, stddev: 0.84, 95% CI: [5.13 - 1.83] - Actual: 5.26 - Mean error: -1.78
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.08 - 1.83] - Actual: 5.5 - Mean error: -2.04
+Prediction mean: 3.46, stddev: 0.83, 95% CI: [5.1 - 1.83] - Actual: 5.9 - Mean error: -2.44
+#######################################################################
+Training model fold nº 4, epoch 2375, layer1 8, layer2 4, iter base
+#######################################################################
+Start training the model...
+Epoch loss (500): -0.320499067902565 - RMSE: 0.4328050441145897884
+Epoch loss (1000): -0.3508895016759634 - RMSE: 0.39339284974336625
+Epoch loss (1500): -0.3700554686188698 - RMSE: 0.368594310402870165
+Epoch loss (2000): -0.32479021068662406 - RMSE: 0.36742523053288463
+Epoch loss (2370): -0.3298363208770752 - RMSE: 0.353069117665290897
+--- TRAIN END AT EPOCH 2375 ---
+TRAINING TIME: 336.66162300109863 seconds
+Best epoch: 0
+Epoch loss (2375): -0.38307360708713534 - RMSE: 0.36821750104427337
+Training finished.
+Root mean squared error: 0.13
+Mean absolute error: 0.07
+Max error: 1.73
+Number of uncertainy: 9
+Mean of stddev: 0.16
+TOP 10 maximum errors:
+Prediction mean: 3.37, stddev: 0.84, 95% CI: [5.0 - 1.73] - Actual: 2.84 - Mean error: 0.53
+Prediction mean: 2.32, stddev: 0.36, 95% CI: [3.01 - 1.62] - Actual: 2.85 - Mean error: -0.53
+Prediction mean: 3.57, stddev: 0.96, 95% CI: [5.45 - 1.68] - Actual: 3.03 - Mean error: 0.54
+Prediction mean: 3.55, stddev: 0.95, 95% CI: [5.42 - 1.68] - Actual: 4.1 - Mean error: -0.55
+Prediction mean: 3.03, stddev: 0.65, 95% CI: [4.31 - 1.75] - Actual: 3.66 - Mean error: -0.63
+Prediction mean: 3.55, stddev: 0.95, 95% CI: [5.42 - 1.68] - Actual: 4.47 - Mean error: -0.92
+Prediction mean: 3.39, stddev: 0.85, 95% CI: [5.06 - 1.72] - Actual: 4.77 - Mean error: -1.38
+Prediction mean: 3.57, stddev: 0.97, 95% CI: [5.46 - 1.68] - Actual: 5.1 - Mean error: -1.53
+Prediction mean: 3.45, stddev: 0.89, 95% CI: [5.18 - 1.71] - Actual: 5.14 - Mean error: -1.69
+Prediction mean: 3.57, stddev: 0.97, 95% CI: [5.46 - 1.68] - Actual: 5.3 - Mean error: -1.73
+#######################################################################
+Training model fold nº 5, epoch 2375, layer1 8, layer2 4, iter base
+#######################################################################
+Start training the model...
+Epoch loss (500): -0.2868642220282927 - RMSE: 0.425890759557485576
+Epoch loss (1000): -0.3252507722650771 - RMSE: 0.37088862118124965
+Epoch loss (1500): -0.28902309397794307 - RMSE: 0.38778331992030146
+Epoch loss (2000): -0.38258571323752405 - RMSE: 0.35586759531497963
+Epoch loss (2370): -0.4312987446784973 - RMSE: 0.357972016930580165
+--- TRAIN END AT EPOCH 2375 ---
+TRAINING TIME: 337.60526514053345 seconds
+Best epoch: 0
+Epoch loss (2375): -0.36608044505119325 - RMSE: 0.37129420042037964
+Training finished.
+Root mean squared error: 0.13
+Mean absolute error: 0.07
+Max error: 1.73
+Number of uncertainy: 10
+Mean of stddev: 0.16
+TOP 10 maximum errors:
+Prediction mean: 3.63, stddev: 0.98, 95% CI: [5.54 - 1.72] - Actual: 4.13 - Mean error: -0.5
+Prediction mean: 2.88, stddev: 0.57, 95% CI: [3.99 - 1.77] - Actual: 2.38 - Mean error: 0.5
+Prediction mean: 3.15, stddev: 0.7, 95% CI: [4.51 - 1.79] - Actual: 2.57 - Mean error: 0.58
+Prediction mean: 3.0, stddev: 0.62, 95% CI: [4.22 - 1.78] - Actual: 3.61 - Mean error: -0.61
+Prediction mean: 3.28, stddev: 0.76, 95% CI: [4.78 - 1.78] - Actual: 3.91 - Mean error: -0.63
+Prediction mean: 3.56, stddev: 0.93, 95% CI: [5.39 - 1.73] - Actual: 4.24 - Mean error: -0.68
+Prediction mean: 2.64, stddev: 0.47, 95% CI: [3.56 - 1.72] - Actual: 3.48 - Mean error: -0.84
+Prediction mean: 3.63, stddev: 0.98, 95% CI: [5.54 - 1.72] - Actual: 4.79 - Mean error: -1.16
+Prediction mean: 3.63, stddev: 0.97, 95% CI: [5.54 - 1.72] - Actual: 5.31 - Mean error: -1.68
+Prediction mean: 3.23, stddev: 0.74, 95% CI: [4.67 - 1.78] - Actual: 4.96 - Mean error: -1.73
+#######################################################################
+Cross validation results:
+#######################################################################
+Root mean squared error: 0.16 +- 0.05
+Mean absolute error: 0.1 +- 0.04
+Max error: 1.68 +- 0.57
+Number of uncertainy: 32.0 +- 37.7
+Mean of stddev: 0.18 +- 0.03
+#######################################################################
+End of the program

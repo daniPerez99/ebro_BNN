@@ -1,0 +1,20 @@
+MSE:
+    0.02 -> RMSprop(5,5)
+    0.03 -> hay 14
+    0.04 -> hay 16
+    0.05 -> hay 5
+    0.06 -> hay 8
+
+fuera de rango:
+    4 -> Adam(10,20)
+    6 -> RMSprop(20,10)
+    7 -> Adam(20,15) y SGD(15,5)
+    9 -> SGD(20,10)
+    10 -> RMSprop(15,20), Adam(5,15) y Adam(10,5)
+
+MAXE:
+    1.39 -> RMSprop(10,20)
+    1.4 -> RMSprop(10,15)
+    1.43 -> SGD(15,10)
+    1.53 -> RMSprop(15,15)
+    1.56 -> Adam(10,10) y SGD(10,5)
